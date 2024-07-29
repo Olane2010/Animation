@@ -1,0 +1,1591 @@
+{
+	"name": "Extrude Revamped (Steve)",
+	"texture": "ExtrudedTemplateSteve.png",
+	"texture_size": [ 64, 64 ],
+	"player_skin": true,
+	"parts": [
+		{
+			"name": "Body",
+			"position": [ 0, 12, 0 ],
+			"parts": [
+				{
+					"name": "Body Control",
+					"position": [ 0, 0, 0 ],
+					"bend": {
+						"offset": 6,
+						"size": 18,
+						"part": "upper",
+						"axis": [ "x", "y", "z" ],
+						"direction_min": [ -120, -180, -90 ],
+						"direction_max": [ 120, 180, 90 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -4, 0, -2 ],
+							"to": [ 4, 12, 2 ],
+							"uv": [ 20, 20 ]
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -4, 0, 8 ],
+							"to": [ 4, 12, 8 ],
+							"uv": [ 20, 36 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Right side",
+							"from": [ -2, 0, 16 ],
+							"to": [ 2, 12, 16 ],
+							"uv": [ 28, 36 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Right side",
+							"from": [ -2, 0, 16 ],
+							"to": [ 2, 12, 16 ],
+							"uv": [ 16, 36 ],
+							"rotation": [ 0, -90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -4, 0, 8 ],
+							"to": [ 4, 12, 8 ],
+							"uv": [ 32, 36 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						}
+					],
+					"parts": [
+						{
+							"name": "Head",
+							"position": [ 0, 12, 0 ],
+							"parts": [
+								{
+									"name": "Control_head",
+									"position": [ 0, 0, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -4, 0, -4 ],
+											"to": [ 4, 8, 4 ],
+											"uv": [ 8, 8 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "hat",
+											"position": [ 0, 0, 0 ],
+											"shapes": [
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -4, 0, 8 ],
+													"to": [ 4, 8, 8 ],
+													"uv": [ 40, 8 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front_ExtrudeP1",
+													"from": [ -4, 0, 9 ],
+													"to": [ 4, 8, 9 ],
+													"uv": [ 24, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front_ExtrudeP1",
+													"from": [ 8, 0, 9 ],
+													"to": [ 9, 8, 9 ],
+													"uv": [ 31, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front_ExtrudeP1",
+													"from": [ -9, 0, 9 ],
+													"to": [ -8, 8, 9 ],
+													"uv": [ 24, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front_ExtrudeP1",
+													"from": [ -4, 16, 9 ],
+													"to": [ 4, 17, 9 ],
+													"uv": [ 24, 0 ],
+													"scale": [ 1, 0.5, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front_ExtrudeP2",
+													"from": [ -4, 0, 18 ],
+													"to": [ 4, 8, 18 ],
+													"uv": [ 32, 0 ],
+													"scale": [ 1, 1, 0.25 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -4, -1, 8 ],
+													"to": [ 4, 0, 8 ],
+													"uv": [ 40, 15 ],
+													"scale": [ 1, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -9, -1, 8 ],
+													"to": [ -8, 0, 8 ],
+													"uv": [ 40, 15 ],
+													"scale": [ 0.5, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -9, 32, 8 ],
+													"to": [ -8, 33, 8 ],
+													"uv": [ 40, 8 ],
+													"scale": [ 0.5, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ 8, -1, 8 ],
+													"to": [ 9, 0, 8 ],
+													"uv": [ 47, 15 ],
+													"scale": [ 0.5, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ 8, 32, 8 ],
+													"to": [ 9, 33, 8 ],
+													"uv": [ 47, 8 ],
+													"scale": [ 0.5, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ 8, 0, 8 ],
+													"to": [ 9, 8, 8 ],
+													"uv": [ 47, 8 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -9, 0, 8 ],
+													"to": [ -8, 8, 8 ],
+													"uv": [ 40, 8 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -4, 16, 8 ],
+													"to": [ 4, 17, 8 ],
+													"uv": [ 40, 8 ],
+													"scale": [ 1, 0.5, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Right",
+													"from": [ -4, 0, 8 ],
+													"to": [ 4, 8, 8 ],
+													"uv": [ 48, 8 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Right",
+													"from": [ -4, 0, 45 ],
+													"to": [ 4, 8, 45 ],
+													"uv": [ 56, 16 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 1, 0.1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Right",
+													"from": [ -4, -1, 8 ],
+													"to": [ 4, 0, 8 ],
+													"uv": [ 48, 15 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Left",
+													"from": [ -4, 0, 8 ],
+													"to": [ 4, 8, 8 ],
+													"uv": [ 32, 8 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Left",
+													"from": [ -4, 0, 45 ],
+													"to": [ 4, 8, 45 ],
+													"uv": [ 56, 24 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 1, 1, 0.1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Left",
+													"from": [ -4, -1, 8 ],
+													"to": [ 4, 0, 8 ],
+													"uv": [ 32, 15 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 1, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -4, 0, 8 ],
+													"to": [ 4, 8, 8 ],
+													"uv": [ 56, 8 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -4, 0, 45 ],
+													"to": [ 4, 8, 45 ],
+													"uv": [ 56, 40 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 1, 1, 0.1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -4, 16, 8 ],
+													"to": [ 4, 17, 8 ],
+													"uv": [ 56, 8 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 1, 0.5, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -4, -1, 8 ],
+													"to": [ 4, 0, 8 ],
+													"uv": [ 56, 15 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 1, 0.25, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -9, 0, 8 ],
+													"to": [ -8, 8, 8 ],
+													"uv": [ 56, 8 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ 8, 0, 8 ],
+													"to": [ 9, 8, 8 ],
+													"uv": [ 63, 8 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Top",
+													"from": [ -4, -4, 16 ],
+													"to": [ 4, 4, 16 ],
+													"uv": [ 40, 0 ],
+													"rotation": [ -90, 0, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Top",
+													"from": [ -4, -4, 85 ],
+													"to": [ 4, 4, 85 ],
+													"uv": [ 56, 32 ],
+													"rotation": [ -90, 0, 0 ],
+													"scale": [ 1, 1, 0.1 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Top",
+													"from": [ -9, -4, 16 ],
+													"to": [ -8, 4, 16 ],
+													"uv": [ 40, 0 ],
+													"rotation": [ -90, 0, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Top",
+													"from": [ 8, -4, 16 ],
+													"to": [ 9, 4, 16 ],
+													"uv": [ 47, 0 ],
+													"rotation": [ -90, 0, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Bottom",
+													"from": [ -4, -4, 0 ],
+													"to": [ 4, 4, 0 ],
+													"uv": [ 48, 0 ],
+													"rotation": [ 90, 180, 0 ],
+													"scale": [ 1, 1, 0.25 ],
+													"3d": true
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Right_arm",
+							"position": [ -6, 10, 0 ],
+							"parts": [
+								{
+									"name": "R bend",
+									"position": [ 0, 0, 0 ],
+									"bend": {
+										"offset": -4,
+										"part": "lower",
+										"axis": "x",
+										"direction_min": 0,
+										"direction_max": 130,
+										"invert": true
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -2, -6, -2 ],
+											"to": [ 2, 2, 2 ],
+											"uv": [ 44, 20 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 44, 36 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"from": [ -11, -6, 10 ],
+											"to": [ -10, 2, 10 ],
+											"uv": [ 44, 36 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"from": [ 10, -6, 10 ],
+											"to": [ 11, 2, 10 ],
+											"uv": [ 47, 36 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Left",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 40, 36 ],
+											"rotation": [ 0, -90, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Right",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 48, 36 ],
+											"rotation": [ 0, 90, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 52, 36 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"from": [ -11, -6, 10 ],
+											"to": [ -10, 2, 10 ],
+											"uv": [ 52, 36 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"from": [ 10, -6, 10 ],
+											"to": [ 11, 2, 10 ],
+											"uv": [ 55, 36 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -2, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 44, 32 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 40, 36 ],
+											"rotation": [ -90, -90, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 48, 36 ],
+											"rotation": [ -90, 90, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 44, 36 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -11, -11, 10 ],
+											"to": [ -10, -10, 10 ],
+											"uv": [ 44, 36 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -11, 10, 10 ],
+											"to": [ -10, 11, 10 ],
+											"uv": [ 55, 36 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ 10, -11, 10 ],
+											"to": [ 11, -10, 10 ],
+											"uv": [ 47, 36 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ 10, 10, 10 ],
+											"to": [ 11, 11, 10 ],
+											"uv": [ 52, 36 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 52, 36 ],
+											"rotation": [ -90, 180, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Right_wrist",
+											"position": [ 0, -2, 0 ],
+											"bend": {
+												"offset": -6,
+												"size": 7,
+												"part": "lower",
+												"axis": [ "x", "z" ],
+												"direction_min": [ -45, -180 ],
+												"direction_max": [ 45, 180 ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -2, -8, -2 ],
+													"to": [ 2, -4, 2 ],
+													"uv": [ 44, 28 ]
+												},
+												{
+													"type": "block",
+													"from": [ -2, -320, -2 ],
+													"to": [ 2, -319.9, 2 ],
+													"uv": [ 44, 20 ],
+													"scale": [ 1, 0.025, 1 ]
+												},
+												{
+													"type": "plane",
+													"description": "Right",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 48, 44 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -5, -8, 4 ],
+													"to": [ -4, -4, 4 ],
+													"uv": [ 52, 44 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ 4, -8, 4 ],
+													"to": [ 5, -4, 4 ],
+													"uv": [ 47, 44 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 52, 44 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Left",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 40, 44 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ 4, -8, 4 ],
+													"to": [ 5, -4, 4 ],
+													"uv": [ 55, 44 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -5, -8, 4 ],
+													"to": [ -4, -4, 4 ],
+													"uv": [ 44, 44 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 44, 44 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Left_arm",
+							"position": [ 6, 10, 0 ],
+							"parts": [
+								{
+									"name": "L bend",
+									"position": [ 0, 0, 0 ],
+									"bend": {
+										"offset": -4,
+										"part": "lower",
+										"axis": "x",
+										"direction_min": 0,
+										"direction_max": 130,
+										"invert": true
+									},
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -2, -6, -2 ],
+											"to": [ 2, 2, 2 ],
+											"uv": [ 36, 52 ]
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 52, 52 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"from": [ 0, -6, 10 ],
+											"to": [ 1, 2, 10 ],
+											"uv": [ 55, 52 ],
+											"position": [ 2, 0, 0 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Front",
+											"from": [ -21, -6, 10 ],
+											"to": [ -20, 2, 10 ],
+											"uv": [ 52, 52 ],
+											"position": [ 2, 0, 0 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Right",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 56, 52 ],
+											"rotation": [ 0, 90, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Left",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 48, 52 ],
+											"rotation": [ 0, -90, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"from": [ -2, -6, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 60, 52 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"from": [ -11, -6, 10 ],
+											"to": [ -10, 2, 10 ],
+											"uv": [ 60, 52 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Back",
+											"from": [ 10, -6, 10 ],
+											"to": [ 11, 2, 10 ],
+											"uv": [ 63, 52 ],
+											"rotation": [ 0, 180, 0 ],
+											"scale": [ 0.2, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -2, 10 ],
+											"to": [ 2, 2, 10 ],
+											"uv": [ 52, 48 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 1, 1, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 56, 52 ],
+											"rotation": [ -90, 90, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 48, 52 ],
+											"rotation": [ -90, -90, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 52, 52 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ 10, -11, 10 ],
+											"to": [ 11, -10, 10 ],
+											"uv": [ 55, 52 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ 10, 10, 10 ],
+											"to": [ 11, 11, 10 ],
+											"uv": [ 60, 52 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -11, -11, 10 ],
+											"to": [ -10, -10, 10 ],
+											"uv": [ 52, 52 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -11, 10, 10 ],
+											"to": [ -10, 11, 10 ],
+											"uv": [ 63, 52 ],
+											"rotation": [ -90, 0, 0 ],
+											"scale": [ 0.2, 0.2, 0.2 ],
+											"3d": true
+										},
+										{
+											"type": "plane",
+											"description": "Top",
+											"from": [ -2, -11, 10 ],
+											"to": [ 2, -10, 10 ],
+											"uv": [ 60, 52 ],
+											"rotation": [ -90, 180, 0 ],
+											"scale": [ 1, 0.2, 0.2 ],
+											"3d": true
+										}
+									],
+									"parts": [
+										{
+											"name": "Left_wrist",
+											"position": [ 0, -2, 0 ],
+											"bend": {
+												"offset": -6,
+												"size": 7,
+												"part": "lower",
+												"axis": [ "x", "z" ],
+												"direction_min": [ -45, -180 ],
+												"direction_max": [ 45, 180 ]
+											},
+											"shapes": [
+												{
+													"type": "block",
+													"from": [ -2, -8, -2 ],
+													"to": [ 2, -4, 2 ],
+													"uv": [ 36, 60 ]
+												},
+												{
+													"type": "block",
+													"from": [ -2, -320, -2 ],
+													"to": [ 2, -319.9, 2 ],
+													"uv": [ 36, 52 ],
+													"scale": [ 1, 0.025, 1 ]
+												},
+												{
+													"type": "plane",
+													"description": "Right",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 56, 60 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -5, -8, 4 ],
+													"to": [ -4, -4, 4 ],
+													"uv": [ 60, 60 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ 4, -8, 4 ],
+													"to": [ 5, -4, 4 ],
+													"uv": [ 55, 60 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 60, 60 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Left",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 48, 60 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Back",
+													"from": [ 4, -8, 4 ],
+													"to": [ 5, -4, 4 ],
+													"uv": [ 63, 60 ],
+													"rotation": [ 0, 180, 0 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -5, -8, 4 ],
+													"to": [ -4, -4, 4 ],
+													"uv": [ 52, 60 ],
+													"scale": [ 0.5, 1, 0.5 ],
+													"3d": true
+												},
+												{
+													"type": "plane",
+													"description": "Front",
+													"from": [ -2, -8, 4 ],
+													"to": [ 2, -4, 4 ],
+													"uv": [ 52, 60 ],
+													"scale": [ 1, 1, 0.5 ],
+													"3d": true
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Right_leg",
+			"position": [ -2, 12, 0 ],
+			"bend": {
+				"offset": -6,
+				"part": "lower",
+				"axis": "x",
+				"direction_min": 0,
+				"direction_max": 130
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -2, -8, -2 ],
+					"to": [ 2, 0, 2 ],
+					"uv": [ 4, 20 ]
+				},
+				{
+					"type": "plane",
+					"description": "Front",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 4, 36 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Front",
+					"from": [ -9, -8, 8 ],
+					"to": [ -8, 0, 8 ],
+					"uv": [ 4, 36 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Front",
+					"from": [ 8, -8, 8 ],
+					"to": [ 9, 0, 8 ],
+					"uv": [ 7, 36 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Back",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 12, 36 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Back",
+					"from": [ -9, -8, 8 ],
+					"to": [ -8, 0, 8 ],
+					"uv": [ 12, 36 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Back",
+					"from": [ 8, -8, 8 ],
+					"to": [ 9, 0, 8 ],
+					"uv": [ 15, 36 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Left",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 0, 36 ],
+					"rotation": [ 0, -90, 0 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Right",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 8, 36 ],
+					"rotation": [ 0, 90, 0 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "Right_ankle",
+					"position": [ 0, -8, 0 ],
+					"bend": {
+						"offset": -2,
+						"size": 7,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"direction_min": [ -45, -180 ],
+						"direction_max": [ 45, 180 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -2, -8, -2 ],
+							"to": [ 2, -4, 2 ],
+							"uv": [ 4, 28 ],
+							"position": [ 0, 4, 0 ]
+						},
+						{
+							"type": "plane",
+							"description": "Right",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 8, 44 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -9, -8, 8 ],
+							"to": [ -8, -4, 8 ],
+							"uv": [ 12, 44 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ 8, -8, 8 ],
+							"to": [ 9, -4, 8 ],
+							"uv": [ 7, 44 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 12, 44 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Left",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 0, 44 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, -90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ 8, -8, 8 ],
+							"to": [ 9, -4, 8 ],
+							"uv": [ 15, 44 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -9, -8, 8 ],
+							"to": [ -8, -4, 8 ],
+							"uv": [ 4, 44 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ 4, -8, 4 ],
+							"to": [ 5, -7, 4 ],
+							"uv": [ 7, 47 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Left",
+							"from": [ -2, -8, -10 ],
+							"to": [ 2, -7, -10 ],
+							"uv": [ 0, 47 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Right",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 8, 47 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -5, -8, 4 ],
+							"to": [ -4, -7, 4 ],
+							"uv": [ 12, 47 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -5, -8, 4 ],
+							"to": [ -4, -7, 4 ],
+							"uv": [ 4, 47 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ 4, -8, 4 ],
+							"to": [ 5, -7, 4 ],
+							"uv": [ 15, 47 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 4, 44 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 12, 47 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "block",
+							"from": [ -2, -320, -2 ],
+							"to": [ 2, -319.9, 2 ],
+							"uv": [ 4, 20 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 1, 0.025, 1 ]
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 4, 47 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Left_leg",
+			"position": [ 2, 12, 0 ],
+			"bend": {
+				"offset": -6,
+				"part": "lower",
+				"axis": "x",
+				"direction_min": 0,
+				"direction_max": 130
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -2, -8, -2 ],
+					"to": [ 2, 0, 2 ],
+					"uv": [ 20, 52 ]
+				},
+				{
+					"type": "plane",
+					"description": "Front",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 4, 52 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Front",
+					"from": [ 8, -8, 8 ],
+					"to": [ 9, 0, 8 ],
+					"uv": [ 7, 52 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Front",
+					"from": [ -9, -8, 8 ],
+					"to": [ -8, 0, 8 ],
+					"uv": [ 4, 52 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Back",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 12, 52 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Back",
+					"from": [ -9, -8, 8 ],
+					"to": [ -8, 0, 8 ],
+					"uv": [ 12, 52 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Back",
+					"from": [ 8, -8, 8 ],
+					"to": [ 9, 0, 8 ],
+					"uv": [ 15, 52 ],
+					"rotation": [ 0, 180, 0 ],
+					"scale": [ 0.25, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Right",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 8, 52 ],
+					"rotation": [ 0, 90, 0 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				},
+				{
+					"type": "plane",
+					"description": "Left",
+					"from": [ -2, -8, 8 ],
+					"to": [ 2, 0, 8 ],
+					"uv": [ 0, 52 ],
+					"rotation": [ 0, -90, 0 ],
+					"scale": [ 1, 1, 0.25 ],
+					"3d": true
+				}
+			],
+			"parts": [
+				{
+					"name": "Left_ankle",
+					"position": [ 0, -8, 0 ],
+					"bend": {
+						"offset": -2,
+						"size": 7,
+						"part": "lower",
+						"axis": [ "x", "z" ],
+						"direction_min": [ -45, -180 ],
+						"direction_max": [ 45, 180 ]
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -2, -8, -2 ],
+							"to": [ 2, -4, 2 ],
+							"uv": [ 20, 60 ],
+							"position": [ 0, 4, 0 ]
+						},
+						{
+							"type": "plane",
+							"description": "Right",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 8, 60 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Right",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 8, 63 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Left",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 0, 63 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, -90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -9, -8, 8 ],
+							"to": [ -8, -4, 8 ],
+							"uv": [ 12, 60 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -5, -8, 4 ],
+							"to": [ -4, -7, 4 ],
+							"uv": [ 12, 63 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ 4, -8, 4 ],
+							"to": [ 5, -7, 4 ],
+							"uv": [ 15, 63 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ 8, -8, 8 ],
+							"to": [ 9, -4, 8 ],
+							"uv": [ 7, 60 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ 4, -8, 4 ],
+							"to": [ 5, -7, 4 ],
+							"uv": [ 7, 63 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -5, -8, 4 ],
+							"to": [ -4, -7, 4 ],
+							"uv": [ 4, 63 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.5, 1, 0.5 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 12, 60 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 12, 63 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Left",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 0, 60 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, -90, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Back",
+							"from": [ 8, -8, 8 ],
+							"to": [ 9, -4, 8 ],
+							"uv": [ 15, 60 ],
+							"position": [ 0, 4, 0 ],
+							"rotation": [ 0, 180, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -9, -8, 8 ],
+							"to": [ -8, -4, 8 ],
+							"uv": [ 4, 60 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 0.25, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -2, -8, 8 ],
+							"to": [ 2, -4, 8 ],
+							"uv": [ 4, 60 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "plane",
+							"description": "Front",
+							"from": [ -2, -8, 9 ],
+							"to": [ 2, -7, 9 ],
+							"uv": [ 4, 63 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 1, 1, 0.25 ],
+							"3d": true
+						},
+						{
+							"type": "block",
+							"from": [ -2, -320, -2 ],
+							"to": [ 2, -319.9, 2 ],
+							"uv": [ 20, 52 ],
+							"position": [ 0, 4, 0 ],
+							"scale": [ 1, 0.025, 1 ]
+						}
+					]
+				}
+			]
+		}
+	]
+}
