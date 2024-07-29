@@ -21,11 +21,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 608.67517, 436.26633, 466.42649 ],
-			"angle_xy": 268.28113,
-			"angle_z": 9.19287,
+			"focus": [ 586.53049, 70.68872, -920.6407 ],
+			"angle_xy": 270.26044,
+			"angle_z": 14.1808,
 			"roll": 0,
-			"zoom": 126.0208
+			"zoom": 1577.36951
 		}
 	},
 	"background": {
@@ -897,7 +897,7 @@
 				"0": {
 					"POS_X": 656,
 					"POS_Z": 416,
-					"TEXTURE_OBJ": "9VSTN8J847NHP1AH"
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				}
 			},
 			"parent": "root",
@@ -3566,6 +3566,18 @@
 			"id": "9VSTN8J847NHP1AH",
 			"type": "skin",
 			"filename": "c3ac84294b9d84ed.png",
+			"player_skin": false
+		},
+		{
+			"id": "DA56BQ6JO285Y9PQ",
+			"type": "skin",
+			"filename": "char.png",
+			"player_skin": false
+		},
+		{
+			"id": "C9WU0512GLL020DS",
+			"type": "skin",
+			"filename": "skin-qeqi.png",
 			"player_skin": false
 		}
 	]

@@ -21,11 +21,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 0, 0, -2720 ],
-			"angle_xy": 18.969,
-			"angle_z": 43.44427,
+			"focus": [ -1220.91662, -184.33442, 403.27863 ],
+			"angle_xy": 112.6568,
+			"angle_z": 16.43671,
 			"roll": 0,
-			"zoom": 2048.54761
+			"zoom": 1933.53503
 		}
 	},
 	"background": {
@@ -89,17 +89,6 @@
 			"scenery": "AR1P387GX3W5BNP6",
 			"block": {
 				"tex": "default",
-				"repeat_enable": true,
-				"repeat": [ 1, 1, 1 ]
-			}
-		},
-		{
-			"id": "55YZQFX3P075GHI1",
-			"type": "scenery",
-			"name": "",
-			"scenery": "6A01XM62S01U126T",
-			"block": {
-				"tex": "default",
 				"repeat_enable": false,
 				"repeat": [ 1, 1, 1 ]
 			}
@@ -107,11 +96,11 @@
 	],
 	"timelines": [
 		{
-			"id": "ZS1H8MB8SW3J33VY",
+			"id": "5Q7HHA13Q12X8BOP",
 			"type": "scenery",
 			"name": "",
-			"temp": "55YZQFX3P075GHI1",
-			"color": "#0B8000",
+			"temp": "5Q189Y3N93J8FQJX",
+			"color": "#008029",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
@@ -120,14 +109,13 @@
 			"default_values": {
 				"POS_X": -25.07118,
 				"POS_Y": -98.12372,
-				"POS_Z": 32.46757
+				"POS_Z": 48.46757
 			},
 			"keyframes": {
 				"0": {
-					"POS_X": 0,
-					"POS_Y": -2720,
-					"POS_Z": 0,
-					"ROT_Z": -90
+					"POS_X": -2304,
+					"POS_Z": -16,
+					"ROT_Z": -180
 				}
 			},
 			"parent": "root",
@@ -149,7 +137,7 @@
 			},
 			"scale_resize": true,
 			"rot_point_custom": false,
-			"rot_point": [ 1320, 0, 1384 ],
+			"rot_point": [ 1208, 0, 1360 ],
 			"backfaces": false,
 			"texture_blur": false,
 			"texture_filtering": true,
@@ -234,12 +222,6 @@
 			"id": "AR1P387GX3W5BNP6",
 			"type": "schematic",
 			"filename": "Piece of Midgard 2.schematic",
-			"scenery_tl_add": true
-		},
-		{
-			"id": "6A01XM62S01U126T",
-			"type": "schematic",
-			"filename": "Beach.schematic",
 			"scenery_tl_add": true
 		}
 	]
