@@ -21,11 +21,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 0, 16, 0 ],
-			"angle_xy": 315,
-			"angle_z": 5,
+			"focus": [ 45.40802, 4.12016, 18.06782 ],
+			"angle_xy": 295.125,
+			"angle_z": 19.875,
 			"roll": 0,
-			"zoom": 100
+			"zoom": 99.99997
 		}
 	},
 	"background": {
@@ -82,8 +82,74 @@
 		"texture_animation_speed": 0.25
 	},
 	"templates": [
+		{
+			"id": "2F1K72568L71K015",
+			"type": "block",
+			"name": "",
+			"block": {
+				"name": "grass_block",
+				"state": {
+					"snowy": "false"
+				},
+				"tex": "default",
+				"repeat_enable": false,
+				"repeat": [ 1, 1, 1 ]
+			}
+		}
 	],
 	"timelines": [
+		{
+			"id": "532409Y7715TLPDR",
+			"type": "block",
+			"name": "",
+			"temp": "2F1K72568L71K015",
+			"color": "#800053",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 39.02837,
+				"POS_Y": -17.05166
+			},
+			"keyframes": {
+			},
+			"parent": "root",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		}
 	],
 	"resources": [
 	]
