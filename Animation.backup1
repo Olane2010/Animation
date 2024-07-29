@@ -21,11 +21,11 @@
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 1520.54014, 156.74404, 315.0336 ],
-			"angle_xy": 190.41104,
-			"angle_z": 22.39802,
+			"focus": [ 0, 0, -2720 ],
+			"angle_xy": 18.969,
+			"angle_z": 43.44427,
 			"roll": 0,
-			"zoom": 766.8045
+			"zoom": 2048.54761
 		}
 	},
 	"background": {
@@ -124,10 +124,10 @@
 			},
 			"keyframes": {
 				"0": {
-					"POS_X": 2304,
-					"POS_Y": -96,
+					"POS_X": 0,
+					"POS_Y": -2720,
 					"POS_Z": 0,
-					"ROT_Z": 180
+					"ROT_Z": -90
 				}
 			},
 			"parent": "root",
@@ -184,8 +184,6 @@
 				"POS_Z": 48.46757
 			},
 			"keyframes": {
-				"0": {
-				}
 			},
 			"parent": "root",
 			"parent_tree_index": 0,
