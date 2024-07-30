@@ -13,19 +13,19 @@
 			"repeat": false,
 			"seamless_repeat": false,
 			"show_seconds": true,
-			"marker": 90,
+			"marker": 856,
 			"list_width": 317,
-			"hor_scroll": 0,
-			"zoom": 3.99999,
+			"hor_scroll": 1565,
+			"zoom": 3,
 			"region_start": "null",
 			"region_end": "null"
 		},
 		"work_camera": {
-			"focus": [ 450.72729, 135.35521, -438.80127 ],
-			"angle_xy": 249.3503,
-			"angle_z": 15.35745,
+			"focus": [ 461.62506, 136.10522, -436.5405 ],
+			"angle_xy": 276.69476,
+			"angle_z": 65.81505,
 			"roll": 0,
-			"zoom": 65.98032
+			"zoom": 483.77731
 		}
 	},
 	"background": {
@@ -38,8 +38,8 @@
 		"sky_sun_tex": "default",
 		"sky_moon_tex": "default",
 		"sky_moon_phase": 0,
-		"sky_time": -1.06415,
-		"sky_rotation": -69.80566,
+		"sky_time": -266.43158,
+		"sky_rotation": 46.68088,
 		"sunlight_range": 2000,
 		"sunlight_follow": false,
 		"sunlight_strength": 0,
@@ -72,8 +72,8 @@
 		"fog_color": "#89AFFD",
 		"fog_object_color_custom": false,
 		"fog_object_color": "#89AFFD",
-		"fog_distance": 10000,
-		"fog_size": 2000,
+		"fog_distance": 6860,
+		"fog_size": 2340,
 		"fog_height": 1250,
 		"wind": true,
 		"wind_speed": 0.1,
@@ -150,265 +150,246 @@
 				"bounce": false,
 				"spin": false
 			}
+		},
+		{
+			"id": "ZBXI0N8O9A31SYJ2",
+			"type": "sphere",
+			"name": "",
+			"shape": {
+				"tex": "null",
+				"tex_mapped": false,
+				"tex_hoffset": 0,
+				"tex_voffset": 0,
+				"tex_hrepeat": 1,
+				"tex_vrepeat": 1,
+				"tex_hmirror": false,
+				"tex_vmirror": false,
+				"closed": true,
+				"invert": false,
+				"detail": 32,
+				"face_camera": false
+			}
+		},
+		{
+			"id": "ZNT7J8390T23FN2M",
+			"type": "char",
+			"name": "",
+			"model_tex": "5703294WWYZQ2BWA",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				},
+				"model_version": 0
+			}
+		},
+		{
+			"id": "3STHN56368Q6P9CF",
+			"type": "item",
+			"name": "",
+			"item": {
+				"tex": "default",
+				"name": "item/diamond_sword",
+				"3d": true,
+				"face_camera": false,
+				"bounce": false,
+				"spin": false
+			}
+		},
+		{
+			"id": "2HB118SW105NI26G",
+			"type": "particles",
+			"name": "",
+			"particles": {
+				"spawn_constant": true,
+				"spawn_amount": 300,
+				"spawn_region_use": true,
+				"spawn_region_type": "sphere",
+				"spawn_region_sphere_radius": 62.7824,
+				"spawn_region_cube_size": 200,
+				"spawn_region_box_size": [ 200, 200, 200 ],
+				"bounding_box_type": "spawn",
+				"bounding_box_ground_z": 0,
+				"bounding_box_custom_start": [ -100, -100, -100 ],
+				"bounding_box_custom_end": [ 100, 100, 100 ],
+				"bounding_box_relative": false,
+				"destroy_at_animation_finish": true,
+				"destroy_at_amount": true,
+				"destroy_at_amount_val": 200,
+				"destroy_at_time": true,
+				"destroy_at_time_seconds": 10,
+				"destroy_at_time_israndom": false,
+				"destroy_at_time_random_min": 5,
+				"destroy_at_time_random_max": 10,
+				"destroy_at_bounding_box": 0,
+				"types": [
+					{
+						"id": "Z422344Q47238JCS",
+						"name": "Particle 1",
+						"temp_type": "templateobj",
+						"temp": "60A45M5ACN25GEJ8",
+						"text": "Sample text",
+						"spawn_rate": 1,
+						"sprite_tex": "default",
+						"sprite_tex_image": 0,
+						"sprite_template_tex": "default",
+						"sprite_template": "generic",
+						"sprite_template_still_frame": false,
+						"sprite_template_random_frame": false,
+						"sprite_template_reverse": true,
+						"sprite_frame_width": 8,
+						"sprite_frame_height": 8,
+						"sprite_frame_start": 7,
+						"sprite_frame_end": 0,
+						"sprite_animation_speed": 5,
+						"sprite_animation_speed_israndom": false,
+						"sprite_animation_speed_random_min": 5,
+						"sprite_animation_speed_random_max": 10,
+						"sprite_animation_onend": 0,
+						"angle_extend": false,
+						"angle": [ 0, 0, 0 ],
+						"angle_israndom": [ 1, 1, 1 ],
+						"angle_random_min": [ 0, 0, 0 ],
+						"angle_random_max": [ 360, 360, 360 ],
+						"angle_speed": 0,
+						"angle_speed_israndom": 0,
+						"angle_speed_random_min": 0,
+						"angle_speed_random_max": 20,
+						"angle_speed_add": 0,
+						"angle_speed_add_israndom": 0,
+						"angle_speed_add_random_min": -1,
+						"angle_speed_add_random_max": 1,
+						"angle_speed_mul": 1,
+						"angle_speed_mul_israndom": 0,
+						"angle_speed_mul_random_min": 0.75,
+						"angle_speed_mul_random_max": 0.9,
+						"spd_extend": false,
+						"spd": [ 0, 0, 0 ],
+						"spd_israndom": [ 1, 1, 1 ],
+						"spd_random_min": [ -20, -20, -20 ],
+						"spd_random_max": [ 20, 20, 20 ],
+						"spd_add": [ 0, 0, 0 ],
+						"spd_add_israndom": [ 0, 0, 0 ],
+						"spd_add_random_min": [ -1, -1, -1 ],
+						"spd_add_random_max": [ 1, 1, 1 ],
+						"spd_mul": [ 1, 1, 1 ],
+						"spd_mul_israndom": [ 0, 0, 0 ],
+						"spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"rot_extend": false,
+						"rot": [ 0, 0, 0 ],
+						"rot_israndom": [ 1, 1, 1 ],
+						"rot_random_min": [ 0, 0, 0 ],
+						"rot_random_max": [ 360, 360, 360 ],
+						"rot_spd_extend": false,
+						"rot_spd": [ 0, 0, 0 ],
+						"rot_spd_israndom": [ 1, 1, 1 ],
+						"rot_spd_random_min": [ -180, -180, -180 ],
+						"rot_spd_random_max": [ 180, 180, 180 ],
+						"rot_spd_add": [ 0, 0, 0 ],
+						"rot_spd_add_israndom": [ 0, 0, 0 ],
+						"rot_spd_add_random_min": [ -10, -10, -10 ],
+						"rot_spd_add_random_max": [ 10, 10, 10 ],
+						"rot_spd_mul": [ 1, 1, 1 ],
+						"rot_spd_mul_israndom": [ 0, 0, 0 ],
+						"rot_spd_mul_random_min": [ 0.75, 0.75, 0.75 ],
+						"rot_spd_mul_random_max": [ 0.9, 0.9, 0.9 ],
+						"sprite_angle": 0,
+						"sprite_angle_israndom": false,
+						"sprite_angle_random_min": 0,
+						"sprite_angle_random_max": 360,
+						"sprite_angle_add": 0,
+						"sprite_angle_add_israndom": false,
+						"sprite_angle_add_random_min": -90,
+						"sprite_angle_add_random_max": 90,
+						"scale": 0.92,
+						"scale_israndom": true,
+						"scale_random_min": 0.1,
+						"scale_random_max": 0.15,
+						"scale_add": 0,
+						"scale_add_israndom": false,
+						"scale_add_random_min": -0.2,
+						"scale_add_random_max": -0.1,
+						"alpha": 1,
+						"alpha_israndom": false,
+						"alpha_random_min": 0,
+						"alpha_random_max": 1,
+						"alpha_add": 0,
+						"alpha_add_israndom": false,
+						"alpha_add_random_min": -0.1,
+						"alpha_add_random_max": -0.05,
+						"color": "#FFFFFF",
+						"color_israndom": true,
+						"color_random_start": "#FFA800",
+						"color_random_end": "#FF2400",
+						"color_mix_enabled": false,
+						"color_mix": "#000000",
+						"color_mix_israndom": false,
+						"color_mix_random_start": "#808080",
+						"color_mix_random_end": "#FFFFFF",
+						"color_mix_time": 3,
+						"color_mix_time_israndom": false,
+						"color_mix_time_random_min": 1,
+						"color_mix_time_random_max": 5,
+						"spawn_region": true,
+						"bounding_box": true,
+						"bounce": true,
+						"bounce_factor": 0.5,
+						"orbit": false
+					}
+				]
+			}
+		},
+		{
+			"id": "60A45M5ACN25GEJ8",
+			"type": "sphere",
+			"name": "",
+			"shape": {
+				"tex": "null",
+				"tex_mapped": false,
+				"tex_hoffset": 0,
+				"tex_voffset": 0,
+				"tex_hrepeat": 1,
+				"tex_vrepeat": 1,
+				"tex_hmirror": false,
+				"tex_vmirror": false,
+				"closed": true,
+				"invert": false,
+				"detail": 32,
+				"face_camera": false
+			}
+		},
+		{
+			"id": "4E0ZX2B6B593705I",
+			"type": "char",
+			"name": "",
+			"model_tex": "86F41S6H7FB9U585",
+			"model": {
+				"name": "human",
+				"state": {
+					"variant": "steve"
+				},
+				"model_version": 0
+			}
 		}
 	],
 	"timelines": [
 		{
-			"id": "QR7PE414U2MTW902",
-			"type": "item",
-			"name": "",
-			"temp": "V19A310H86DR4NET",
-			"color": "#008039",
-			"hide": false,
-			"lock": false,
-			"depth": 18,
-			"default_values": {
-				"POS_X": 454.50622,
-				"POS_Y": -405.66096,
-				"POS_Z": 120.18049
-			},
-			"keyframes": {
-				"0": {
-					"POS_X": 451.59746,
-					"POS_Y": -424.9765,
-					"POS_Z": 128.72638,
-					"ROT_X": 90,
-					"ROT_Z": 6.46766,
-					"SCA_Y": 0.0051,
-					"RGB_MUL": "#12FF00",
-					"GLOW_COLOR": "#06FF00",
-					"BRIGHTNESS": 1
-				}
-			},
-			"parent": "root",
-			"parent_tree_index": 7,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
-				"visibility": true,
-				"bend": false,
-				"rot_point": false,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": true,
-			"rot_point_custom": true,
-			"rot_point": [ 8, 8, 0.5 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": true,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "C24DT938506VKXJ4",
-			"type": "item",
-			"name": "",
-			"temp": "V19A310H86DR4NET",
-			"color": "#008039",
-			"hide": false,
-			"lock": false,
-			"depth": 18,
-			"default_values": {
-				"POS_X": 454.50622,
-				"POS_Y": -405.66096,
-				"POS_Z": 120.18049
-			},
-			"keyframes": {
-				"0": {
-					"POS_X": 463.6559,
-					"POS_Y": -419.2597,
-					"POS_Z": 128.72638,
-					"ROT_X": 90,
-					"ROT_Z": -24.10398,
-					"SCA_Y": 0.0051,
-					"RGB_MUL": "#FF0000",
-					"GLOW_COLOR": "#FF0000",
-					"BRIGHTNESS": 1
-				}
-			},
-			"parent": "root",
-			"parent_tree_index": 8,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
-				"visibility": true,
-				"bend": false,
-				"rot_point": false,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": true,
-			"rot_point_custom": true,
-			"rot_point": [ 8, 8, 0.5 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": true,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "0ZU4699M6S0XX78C",
-			"type": "item",
-			"name": "",
-			"temp": "V19A310H86DR4NET",
-			"color": "#008039",
-			"hide": false,
-			"lock": false,
-			"depth": 18,
-			"default_values": {
-				"POS_X": 454.50622,
-				"POS_Y": -405.66096,
-				"POS_Z": 120.18049
-			},
-			"keyframes": {
-				"0": {
-					"POS_X": 487.74442,
-					"POS_Y": -428.67781,
-					"POS_Z": 128.72638,
-					"ROT_X": 90,
-					"ROT_Z": 15,
-					"SCA_Y": 0.0051,
-					"RGB_MUL": "#383838",
-					"BRIGHTNESS": 1
-				}
-			},
-			"parent": "root",
-			"parent_tree_index": 6,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
-				"visibility": true,
-				"bend": false,
-				"rot_point": false,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": true,
-			"rot_point_custom": true,
-			"rot_point": [ 8, 8, 0.5 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": true,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "H42O9CS7UN8Y35A7",
+			"id": "JS7V3L1E18ALH5F1",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#1D0080",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#508000",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "left_leg",
-			"part_of": "W8TT2WG73MO71M39",
+			"part_of": "4N77O3N1HF8XL0V4",
 			"default_values": {
 			},
 			"keyframes": {
-				"0": {
-					"ROT_X": 11.84396,
-					"BEND_ANGLE_X": 20.59661
-				},
-				"5": {
-					"ROT_X": 1.16469,
-					"BEND_ANGLE_X": 27.39045
-				},
-				"19": {
-					"ROT_X": -32.84711,
-					"BEND_ANGLE_X": 27.12146
-				},
-				"30": {
-					"ROT_X": 2.68739,
-					"BEND_ANGLE_X": 27.12146
-				},
-				"40": {
-					"ROT_X": -31.63817,
-					"ROT_Y": 5.64381,
-					"BEND_ANGLE_X": 27.26278
-				},
-				"50": {
-					"ROT_X": 15.01054,
-					"ROT_Y": 5.64381,
-					"BEND_ANGLE_X": 0.12574
-				},
-				"60": {
-					"ROT_X": -30.29245,
-					"ROT_Y": 5.64381,
-					"BEND_ANGLE_X": -24.24926
-				},
-				"70": {
-					"ROT_X": 18.8077,
-					"ROT_Y": 5.64381,
-					"ROT_Z": 15.70111,
-					"BEND_ANGLE_X": -113.31853
-				},
-				"80": {
-					"ROT_X": -59.35806,
-					"ROT_Y": 8.70421,
-					"ROT_Z": 15.70111,
-					"BEND_ANGLE_X": 71.62304
-				},
-				"85": {
-					"ROT_X": -88.68536,
-					"ROT_Y": 8.70421,
-					"ROT_Z": 15.70111,
-					"BEND_ANGLE_X": 88.17491
-				},
-				"90": {
-					"ROT_X": -27.03558,
-					"ROT_Y": 8.70421,
-					"ROT_Z": 15.70111,
-					"BEND_ANGLE_X": 88.17491
-				}
 			},
-			"parent": "W8TT2WG73MO71M39",
+			"parent": "4N77O3N1HF8XL0V4",
 			"parent_tree_index": 2,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -440,67 +421,25 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
-			"bleed_light": true,
+			"bleed_light": false,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "GAE68O50A1CK5P60",
+			"id": "PHUR09RL0PFQT9H8",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#80006F",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#00800C",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "right_leg",
-			"part_of": "W8TT2WG73MO71M39",
+			"part_of": "4N77O3N1HF8XL0V4",
 			"default_values": {
 			},
 			"keyframes": {
-				"0": {
-					"ROT_X": -16.60895,
-					"BEND_ANGLE_X": 11.5043
-				},
-				"19": {
-					"ROT_X": 7.30953,
-					"BEND_ANGLE_X": 13.1647
-				},
-				"30": {
-					"ROT_X": -30.84533,
-					"BEND_ANGLE_X": 13.1647
-				},
-				"40": {
-					"ROT_X": -5.93636,
-					"BEND_ANGLE_X": 16.21206
-				},
-				"50": {
-					"ROT_X": -54.66673,
-					"BEND_ANGLE_X": 37.6979
-				},
-				"60": {
-					"ROT_X": 13.19045,
-					"ROT_Y": -8.3577,
-					"BEND_ANGLE_X": 21.1737
-				},
-				"70": {
-					"ROT_X": -45.58865,
-					"ROT_Y": -8.3577,
-					"ROT_Z": 21.89009,
-					"BEND_ANGLE_X": 73.14201
-				},
-				"80": {
-					"ROT_X": 26.87019,
-					"ROT_Y": -8.3577,
-					"ROT_Z": 21.89009
-				},
-				"85": {
-					"ROT_X": 26.87019,
-					"ROT_Y": -8.3577,
-					"ROT_Z": 12.92439,
-					"BEND_ANGLE_X": 50.31358
-				}
 			},
-			"parent": "W8TT2WG73MO71M39",
+			"parent": "4N77O3N1HF8XL0V4",
 			"parent_tree_index": 1,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -532,79 +471,75 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
-			"bleed_light": true,
+			"bleed_light": false,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "XLX1H831S63TLK7D",
+			"id": "27P10B25Z8YBP77J",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#800060",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#80001F",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "4N77O3N1HF8XL0V4",
+			"default_values": {
+			},
+			"keyframes": {
+			},
+			"parent": "4N77O3N1HF8XL0V4",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "MMQ4YWUEZE5ESD50",
+			"type": "bodypart",
+			"name": "",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#690080",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "left_arm",
-			"part_of": "W8TT2WG73MO71M39",
+			"part_of": "4N77O3N1HF8XL0V4",
 			"default_values": {
 			},
 			"keyframes": {
-				"0": {
-					"ROT_X": -14.53676,
-					"ROT_Y": 9.89465,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 35.58273
-				},
-				"4": {
-					"ROT_X": 12.12845,
-					"ROT_Y": 9.89465,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 39.0222
-				},
-				"19": {
-					"ROT_X": 11.63142,
-					"ROT_Y": 9.89465,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 17.9207
-				},
-				"30": {
-					"ROT_X": -14.03107,
-					"ROT_Y": 9.89465,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 41.65392
-				},
-				"40": {
-					"ROT_X": 30.27031,
-					"ROT_Y": 9.89465,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 19.20971
-				},
-				"50": {
-					"ROT_X": -27.09677,
-					"ROT_Y": 12.46054,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 19.20971
-				},
-				"60": {
-					"ROT_X": 28.80602,
-					"ROT_Y": 12.46054,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 19.20971
-				},
-				"80": {
-					"ROT_X": 28.80602,
-					"ROT_Y": 25.48051,
-					"ROT_Z": -13.62375,
-					"BEND_ANGLE_X": 19.20971
-				},
-				"90": {
-					"ROT_X": 40.99718,
-					"ROT_Y": 25.48051,
-					"ROT_Z": 13.54535,
-					"BEND_ANGLE_X": 14.06965
-				}
 			},
-			"parent": "66ML6DE8JU8LD71O",
+			"parent": "27P10B25Z8YBP77J",
 			"parent_tree_index": 2,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -636,82 +571,25 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
-			"bleed_light": true,
+			"bleed_light": false,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "509W71D3156AI3TY",
+			"id": "6QCCUWZE8EGV3832",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#4A8000",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#801800",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "right_arm",
-			"part_of": "W8TT2WG73MO71M39",
+			"part_of": "4N77O3N1HF8XL0V4",
 			"default_values": {
 			},
 			"keyframes": {
-				"0": {
-					"ROT_X": 20.55981,
-					"BEND_ANGLE_X": 16.87663
-				},
-				"4": {
-					"ROT_X": 20.55981,
-					"ROT_Y": -3.81848,
-					"BEND_ANGLE_X": 16.87663
-				},
-				"7": {
-					"ROT_X": 6.74765,
-					"ROT_Y": -3.81848,
-					"ROT_Z": -0.1433,
-					"BEND_ANGLE_X": 16.87663
-				},
-				"19": {
-					"ROT_X": -28.20773,
-					"ROT_Y": -8.74312,
-					"ROT_Z": 18.2487,
-					"BEND_ANGLE_X": 16.6663
-				},
-				"30": {
-					"ROT_X": 12.20386,
-					"ROT_Y": -8.74312,
-					"ROT_Z": 18.2487,
-					"BEND_ANGLE_X": 21.19262
-				},
-				"40": {
-					"ROT_X": -17.25784,
-					"ROT_Y": -8.74312,
-					"ROT_Z": 18.2487,
-					"BEND_ANGLE_X": 5.87424
-				},
-				"50": {
-					"ROT_X": 24.87588,
-					"ROT_Y": 9.25269,
-					"ROT_Z": 18.2487,
-					"BEND_ANGLE_X": 5.87424
-				},
-				"60": {
-					"ROT_X": -49.55721,
-					"ROT_Y": 9.25269,
-					"ROT_Z": -32.81673,
-					"BEND_ANGLE_X": 32.87075
-				},
-				"80": {
-					"ROT_X": 3.55637,
-					"ROT_Y": -15.61167,
-					"ROT_Z": -1.79564,
-					"BEND_ANGLE_X": 10.49477
-				},
-				"90": {
-					"ROT_X": -61.72035,
-					"ROT_Y": -16.11623,
-					"ROT_Z": 46.98358,
-					"BEND_ANGLE_X": 10.51623
-				}
 			},
-			"parent": "66ML6DE8JU8LD71O",
+			"parent": "27P10B25Z8YBP77J",
 			"parent_tree_index": 1,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -743,25 +621,25 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
-			"bleed_light": true,
+			"bleed_light": false,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "ZC572E88YQTM72U2",
+			"id": "0ZF88Z1AFX4Z6XUA",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#338000",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#800061",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
-			"model_part_name": "hat",
-			"part_of": "W8TT2WG73MO71M39",
+			"model_part_name": "head",
+			"part_of": "4N77O3N1HF8XL0V4",
 			"default_values": {
 			},
 			"keyframes": {
 			},
-			"parent": "06ZUMYMVUBF22KR8",
+			"parent": "27P10B25Z8YBP77J",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -793,51 +671,28 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
-			"bleed_light": true,
+			"bleed_light": false,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "06ZUMYMVUBF22KR8",
+			"id": "R398G612M4EZU422",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#00806B",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#2B8000",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
-			"model_part_name": "head",
-			"part_of": "W8TT2WG73MO71M39",
+			"model_part_name": "hat",
+			"part_of": "4N77O3N1HF8XL0V4",
 			"default_values": {
 			},
 			"keyframes": {
-				"30": {
-					"ROT_Z": -6.61835
-				},
-				"40": {
-					"ROT_X": 12.67761,
-					"ROT_Y": 1.89896,
-					"ROT_Z": -22.51917
-				},
-				"50": {
-					"ROT_X": 17.11996,
-					"ROT_Y": 0.84471,
-					"ROT_Z": -13.85179
-				},
-				"70": {
-					"ROT_X": 17.11996,
-					"ROT_Y": 0.84471,
-					"ROT_Z": -3.37422
-				},
-				"85": {
-					"ROT_X": 34.62561,
-					"ROT_Y": 0.84471,
-					"ROT_Z": 11.42879
-				}
 			},
-			"parent": "66ML6DE8JU8LD71O",
+			"parent": "0ZF88Z1AFX4Z6XUA",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": true,
+			"tree_extend": false,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -866,56 +721,547 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
-			"bleed_light": true,
+			"bleed_light": false,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "66ML6DE8JU8LD71O",
+			"id": "4N77O3N1HF8XL0V4",
+			"type": "char",
+			"name": "",
+			"temp": "4E0ZX2B6B593705I",
+			"color": "#00806F",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"R398G612M4EZU422",
+				"0ZF88Z1AFX4Z6XUA",
+				"6QCCUWZE8EGV3832",
+				"MMQ4YWUEZE5ESD50",
+				"27P10B25Z8YBP77J",
+				"PHUR09RL0PFQT9H8",
+				"JS7V3L1E18ALH5F1"
+			],
+			"default_values": {
+				"POS_X": 783.08984,
+				"POS_Y": 1105.59058,
+				"POS_Z": 392.44171
+			},
+			"keyframes": {
+				"139": {
+					"POS_X": 206.66072,
+					"POS_Y": 75.87565,
+					"POS_Z": 384.30912,
+					"ROT_Z": -180.23863
+				},
+				"779": {
+					"POS_X": 206.66072,
+					"POS_Y": 75.87565,
+					"POS_Z": 384.30912,
+					"ROT_Z": -312.22704
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 10,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "5Z7EEQJ66K66U3CF",
+			"type": "particles",
+			"name": "",
+			"temp": "2HB118SW105NI26G",
+			"color": "#00802C",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 838.73027,
+				"POS_Y": 1070.10477,
+				"POS_Z": 354.4227
+			},
+			"keyframes": {
+				"158": {
+					"POS_X": 0,
+					"POS_Y": -5.3166,
+					"POS_Z": 0,
+					"MIX_COLOR": "#FFCC00"
+				}
+			},
+			"parent": "9ERG194EO7M1GP86",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": false,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "IE91V779UETKD7GC",
+			"type": "item",
+			"name": "",
+			"temp": "3STHN56368Q6P9CF",
+			"color": "#000380",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 783.08905,
+				"POS_Y": 1105.79553,
+				"POS_Z": 368.44257
+			},
+			"keyframes": {
+				"1": {
+					"POS_Y": 1110.01244,
+					"POS_Z": 410.27472,
+					"ROT_Y": -179.02015,
+					"MIX_COLOR": "#FF0000",
+					"ITEM_NAME": "item/leather_helmet"
+				},
+				"139": {
+					"POS_Y": 1110.01244,
+					"POS_Z": 410.27472,
+					"ROT_Y": -179.02015,
+					"ITEM_NAME": "item/leather_helmet"
+				},
+				"143": {
+					"POS_X": -7.53422,
+					"POS_Y": -3.03752,
+					"POS_Z": -0.05725,
+					"ROT_Y": -78.36079,
+					"RGB_ADD": "#00FF06",
+					"RGB_MUL": "#FFE2E2",
+					"HSB_ADD": "#00000F",
+					"ITEM_NAME": "item/leather_helmet"
+				},
+				"240": {
+					"POS_X": -7.93091,
+					"POS_Y": -3.36557,
+					"POS_Z": 1.37491,
+					"ROT_Y": -88.54499,
+					"RGB_ADD": "#00FF06",
+					"RGB_MUL": "#FFE2E2",
+					"HSB_ADD": "#00000F",
+					"ITEM_NAME": "item/leather_helmet"
+				},
+				"290": {
+					"POS_X": -8.21055,
+					"POS_Y": -2.80054,
+					"POS_Z": 0.64972,
+					"ROT_Y": -94.99887,
+					"RGB_ADD": "#00FF06",
+					"RGB_MUL": "#FFE2E2",
+					"HSB_ADD": "#00000F",
+					"ITEM_NAME": "item/leather_helmet"
+				},
+				"319": {
+					"POS_X": -8.21055,
+					"POS_Y": -2.80054,
+					"POS_Z": 0.64972,
+					"ROT_Y": -94.99887,
+					"RGB_ADD": "#00FF06",
+					"RGB_MUL": "#FFE2E2",
+					"HSB_ADD": "#00000F",
+					"ITEM_NAME": "item/leather_helmet"
+				}
+			},
+			"parent": "9ERG194EO7M1GP86",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 0.5 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "1J24MJ98Q9HWPA3C",
 			"type": "bodypart",
 			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#0F8000",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#807D00",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "HA5RSB4A6541PPOJ",
+			"default_values": {
+			},
+			"keyframes": {
+				"240": {
+				},
+				"266": {
+					"ROT_X": -35.86353,
+					"BEND_ANGLE_X": 36.46236
+				},
+				"328": {
+					"ROT_X": 25.27255,
+					"BEND_ANGLE_X": -9.75114
+				},
+				"356": {
+					"ROT_X": -1.57932,
+					"BEND_ANGLE_X": 69.80738
+				},
+				"375": {
+					"ROT_X": -29.1956,
+					"BEND_ANGLE_X": 27.13641
+				},
+				"403": {
+					"ROT_X": 13.88115,
+					"BEND_ANGLE_X": -13.64792
+				},
+				"419": {
+					"ROT_X": -3.55946,
+					"BEND_ANGLE_X": 70.95177
+				},
+				"433": {
+					"ROT_X": -21.00008,
+					"BEND_ANGLE_X": 22.1913
+				},
+				"463": {
+					"ROT_X": 14.13023,
+					"BEND_ANGLE_X": -29.78604
+				},
+				"480": {
+					"ROT_X": -13.92089,
+					"BEND_ANGLE_X": 80.91017
+				},
+				"494": {
+					"ROT_X": -44.77712,
+					"BEND_ANGLE_X": 48.67475
+				},
+				"516": {
+					"ROT_X": 20.24616,
+					"BEND_ANGLE_X": -44.93577
+				},
+				"530": {
+					"ROT_X": -6.92135,
+					"BEND_ANGLE_X": 64.51243
+				},
+				"543": {
+					"ROT_X": -30.89268,
+					"BEND_ANGLE_X": 33.17247
+				},
+				"563": {
+					"ROT_X": 24.01088,
+					"BEND_ANGLE_X": -59.69423
+				},
+				"576": {
+					"ROT_X": 13.14637,
+					"BEND_ANGLE_X": 55.96001
+				},
+				"587": {
+					"ROT_X": -41.17618,
+					"BEND_ANGLE_X": 45.34141
+				},
+				"608": {
+					"ROT_X": 16.17202,
+					"BEND_ANGLE_X": -21.15322
+				},
+				"622": {
+					"ROT_X": 16.17202,
+					"BEND_ANGLE_X": 61.12223
+				},
+				"634": {
+					"ROT_X": -28.63036,
+					"BEND_ANGLE_X": 30.11496
+				},
+				"656": {
+					"ROT_X": 13.94709,
+					"BEND_ANGLE_X": -26.92337
+				},
+				"669": {
+					"ROT_X": 13.94709,
+					"BEND_ANGLE_X": 71.91971
+				},
+				"679": {
+					"ROT_X": -24.3718,
+					"BEND_ANGLE_X": 20.87566
+				}
+			},
+			"parent": "HA5RSB4A6541PPOJ",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "2KK70B606H5K3X1I",
+			"type": "bodypart",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#805300",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "HA5RSB4A6541PPOJ",
+			"default_values": {
+			},
+			"keyframes": {
+				"240": {
+				},
+				"266": {
+					"ROT_X": 24.86525
+				},
+				"314": {
+					"ROT_X": -0.50791,
+					"BEND_ANGLE_X": 78.35847
+				},
+				"328": {
+					"ROT_X": -19.20392,
+					"BEND_ANGLE_X": 25.84418
+				},
+				"355": {
+					"ROT_X": 0.23324,
+					"BEND_ANGLE_X": -14.7726
+				},
+				"375": {
+					"ROT_X": 14.63113,
+					"BEND_ANGLE_X": -44.8591
+				},
+				"388": {
+					"ROT_X": -5.15195,
+					"BEND_ANGLE_X": 88.66147
+				},
+				"403": {
+					"ROT_X": -24.93503,
+					"BEND_ANGLE_X": 26.92908
+				},
+				"433": {
+					"ROT_X": 10.12741,
+					"BEND_ANGLE_X": -18.70131
+				},
+				"448": {
+					"ROT_X": -9.50811,
+					"BEND_ANGLE_X": 74.56357
+				},
+				"463": {
+					"ROT_X": -28.2086,
+					"BEND_ANGLE_X": 29.66243
+				},
+				"494": {
+					"ROT_X": 22.02824,
+					"BEND_ANGLE_X": -20.5573
+				},
+				"506": {
+					"ROT_X": -3.86244,
+					"BEND_ANGLE_X": 73.11639
+				},
+				"516": {
+					"ROT_X": -28.52023,
+					"BEND_ANGLE_X": 27.99684
+				},
+				"543": {
+					"ROT_X": 26.85344,
+					"BEND_ANGLE_X": -44.56847
+				},
+				"553": {
+					"ROT_X": -4.43779,
+					"BEND_ANGLE_X": 75.02522
+				},
+				"563": {
+					"ROT_X": -35.72902,
+					"BEND_ANGLE_X": 35.34442
+				},
+				"587": {
+					"ROT_X": 12.28696,
+					"BEND_ANGLE_X": -46.04039
+				},
+				"598": {
+					"ROT_X": -7.31205,
+					"BEND_ANGLE_X": 84.55005
+				},
+				"608": {
+					"ROT_X": -33.44406,
+					"BEND_ANGLE_X": 35.79663
+				},
+				"634": {
+					"ROT_X": 14.5085,
+					"BEND_ANGLE_X": -30.92664
+				},
+				"644": {
+					"ROT_X": 14.5085,
+					"BEND_ANGLE_X": 77.17471
+				},
+				"656": {
+					"ROT_X": -37.22267,
+					"BEND_ANGLE_X": 36.36387
+				},
+				"679": {
+					"ROT_X": 16.05197,
+					"BEND_ANGLE_X": -95.36649
+				}
+			},
+			"parent": "HA5RSB4A6541PPOJ",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "9ERG194EO7M1GP86",
+			"type": "bodypart",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#3E0080",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "body",
-			"part_of": "W8TT2WG73MO71M39",
+			"part_of": "HA5RSB4A6541PPOJ",
 			"default_values": {
 			},
 			"keyframes": {
-				"9": {
-					"ROT_Y": 1.51859,
-					"BEND_ANGLE_Z": 6.13608
+				"239": {
 				},
-				"60": {
-					"ROT_X": 4.21405,
-					"ROT_Y": 1.51859,
-					"ROT_Z": -1.17099,
-					"BEND_ANGLE_Z": 23.88235
+				"290": {
 				},
-				"70": {
-					"ROT_X": 12.69812,
-					"ROT_Y": 1.51859,
-					"ROT_Z": -1.17099,
-					"BEND_ANGLE_Z": 23.88235
-				},
-				"85": {
-					"ROT_X": 12.69812,
-					"ROT_Y": 3.4599,
-					"ROT_Z": -1.17099,
-					"BEND_ANGLE_X": 8.48168,
-					"BEND_ANGLE_Z": 9.375
-				},
-				"90": {
-					"ROT_X": 21.35971,
-					"ROT_Y": 0.58753,
-					"ROT_Z": -3.93342,
-					"BEND_ANGLE_X": 23.56021,
-					"BEND_ANGLE_Y": -11.25,
-					"BEND_ANGLE_Z": 20.625
+				"319": {
 				}
 			},
-			"parent": "W8TT2WG73MO71M39",
+			"parent": "HA5RSB4A6541PPOJ",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": true,
@@ -947,26 +1293,1272 @@
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "1O9162L33FH97F42",
+			"type": "bodypart",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#006380",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "HA5RSB4A6541PPOJ",
+			"default_values": {
+			},
+			"keyframes": {
+				"240": {
+				},
+				"290": {
+					"ROT_X": 9.18793,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 16.60812
+				},
+				"318": {
+					"ROT_X": -7.66801,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 16.60812
+				},
+				"355": {
+					"ROT_X": 9.86363,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 16.60812
+				},
+				"375": {
+					"ROT_X": 19.34019,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 16.60812
+				},
+				"403": {
+					"ROT_X": -6.35652,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 16.60812
+				},
+				"433": {
+					"ROT_X": 15.97292,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"463": {
+					"ROT_X": 0.32576,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"494": {
+					"ROT_X": 27.79015,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"516": {
+					"ROT_X": -4.97968,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"543": {
+					"ROT_X": 29.51752,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"563": {
+					"ROT_X": 0.42318,
+					"ROT_Y": 8.92012,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"587": {
+					"ROT_X": 22.79799,
+					"ROT_Y": 10.59306,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"607": {
+					"ROT_X": 22.79799,
+					"ROT_Y": 10.59306,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"634": {
+					"ROT_X": 22.79799,
+					"ROT_Y": 10.59306,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"656": {
+					"ROT_X": 22.79799,
+					"ROT_Y": 10.59306,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				},
+				"679": {
+					"ROT_X": 22.79799,
+					"ROT_Y": 10.59306,
+					"ROT_Z": -7.27919,
+					"BEND_ANGLE_X": 27.93018
+				}
+			},
+			"parent": "9ERG194EO7M1GP86",
+			"parent_tree_index": 4,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "SENPV8GTTYEKR595",
+			"type": "bodypart",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#800063",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "HA5RSB4A6541PPOJ",
+			"default_values": {
+			},
+			"keyframes": {
+				"240": {
+				},
+				"290": {
+					"ROT_X": 0.02417,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"318": {
+					"ROT_X": 13.22568,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"375": {
+					"ROT_X": -4.68314,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"403": {
+					"ROT_X": 27.63496,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"433": {
+					"ROT_X": -5.60136,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"463": {
+					"ROT_X": 28.25139,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"494": {
+					"ROT_X": -1.36037,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"516": {
+					"ROT_X": 14.6077,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"543": {
+					"ROT_X": -4.88672,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"563": {
+					"ROT_X": 30.15608,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"587": {
+					"ROT_X": -6.04927,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"607": {
+					"ROT_X": -6.04927,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"634": {
+					"ROT_X": -6.04927,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"656": {
+					"ROT_X": -6.04927,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				},
+				"679": {
+					"ROT_X": -6.04927,
+					"ROT_Y": -10.17763,
+					"ROT_Z": 8.24817,
+					"BEND_ANGLE_X": 22.06662
+				}
+			},
+			"parent": "9ERG194EO7M1GP86",
+			"parent_tree_index": 3,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "L5ZQTSTHB1C8XW11",
+			"type": "bodypart",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#110080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "HA5RSB4A6541PPOJ",
+			"default_values": {
+			},
+			"keyframes": {
+				"240": {
+				},
+				"290": {
+				},
+				"318": {
+				},
+				"679": {
+				},
+				"706": {
+					"ROT_Z": 17.86249
+				}
+			},
+			"parent": "9ERG194EO7M1GP86",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "U3658UM0D72NZEY0",
+			"type": "bodypart",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#800700",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "HA5RSB4A6541PPOJ",
+			"default_values": {
+			},
+			"keyframes": {
+				"679": {
+				}
+			},
+			"parent": "L5ZQTSTHB1C8XW11",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "HA5RSB4A6541PPOJ",
+			"type": "char",
+			"name": "",
+			"temp": "ZNT7J8390T23FN2M",
+			"color": "#008025",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"parts": [
+				"U3658UM0D72NZEY0",
+				"L5ZQTSTHB1C8XW11",
+				"SENPV8GTTYEKR595",
+				"1O9162L33FH97F42",
+				"9ERG194EO7M1GP86",
+				"2KK70B606H5K3X1I",
+				"1J24MJ98Q9HWPA3C"
+			],
+			"default_values": {
+				"POS_X": 783.08905,
+				"POS_Y": 1105.79553,
+				"POS_Z": 372.64794
+			},
+			"keyframes": {
+				"1": {
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225,
+					"VISIBLE": false
+				},
+				"143": {
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"239": {
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"290": {
+					"POS_Y": 1097.92709,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"318": {
+					"POS_Y": 1090.79577,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"374": {
+					"POS_Y": 1082.4901,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"403": {
+					"POS_Y": 1073.8938,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"433": {
+					"POS_Y": 1067.96643,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"463": {
+					"POS_Y": 1059.17772,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"494": {
+					"POS_Y": 1051.85527,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"516": {
+					"POS_Y": 1043.15104,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"544": {
+					"POS_Y": 1031.93248,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"563": {
+					"POS_Y": 1022.72451,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"587": {
+					"POS_Y": 1009.73622,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -180.2225
+				},
+				"607": {
+					"POS_Y": 995.36582,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -164.73111
+				},
+				"634": {
+					"POS_X": 779.79886,
+					"POS_Y": 979.8396,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -164.73111
+				},
+				"656": {
+					"POS_X": 777.84373,
+					"POS_Y": 967.34591,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -164.73111
+				},
+				"679": {
+					"POS_X": 773.83139,
+					"POS_Y": 953.78475,
+					"POS_Z": 384.44257,
+					"ROT_X": 0.48904,
+					"ROT_Z": -164.73111
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 9,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": false,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "N3CSJZ8N920RQ04J",
+			"type": "scenery",
+			"name": "",
+			"temp": "5Q189Y3N93J8FQJX",
+			"color": "#008029",
+			"hide": false,
+			"lock": true,
+			"depth": 0,
+			"parts": [
+			],
+			"default_values": {
+				"POS_X": -25.07118,
+				"POS_Y": -98.12372,
+				"POS_Z": 48.46757
+			},
+			"keyframes": {
+				"0": {
+				},
+				"144": {
+				},
+				"148": {
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 1208, 0, 1360 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
 			"bleed_light": true,
 			"blend_mode": "normal"
 		},
 		{
-			"id": "W8TT2WG73MO71M39",
+			"id": "ZS1H8MB8SW3J33VY",
+			"type": "scenery",
+			"name": "",
+			"temp": "55YZQFX3P075GHI1",
+			"color": "#0B8000",
+			"hide": false,
+			"lock": true,
+			"depth": 0,
+			"parts": [
+			],
+			"default_values": {
+				"POS_X": -25.07118,
+				"POS_Y": -98.12372,
+				"POS_Z": 32.46757
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 2304,
+					"POS_Y": -96,
+					"POS_Z": 0,
+					"ROT_Z": 180
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 1320, 0, 1384 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "2I40680VTA78S2GF",
+			"type": "camera",
+			"name": "",
+			"temp": "null",
+			"color": "#800066",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 441.41483,
+				"POS_Y": -365.96031,
+				"POS_Z": 153.42595,
+				"ROT_X": 3.62064,
+				"ROT_Z": -1267.18696
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 426.11506,
+					"POS_Y": -369.05187,
+					"POS_Z": 152.64682,
+					"ROT_X": 4.12064,
+					"ROT_Y": -5,
+					"ROT_Z": -1280.31196,
+					"CAM_FOV": 28,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"45": {
+					"POS_X": 426.11506,
+					"POS_Y": -369.05187,
+					"POS_Z": 152.64682,
+					"ROT_X": 4.62064,
+					"ROT_Y": -4,
+					"ROT_Z": -1282.18696,
+					"CAM_FOV": 22,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"60": {
+					"POS_X": 426.11506,
+					"POS_Y": -369.05187,
+					"POS_Z": 152.64682,
+					"ROT_X": 17.74564,
+					"ROT_Y": -10,
+					"ROT_Z": -1292.06196,
+					"CAM_FOV": 20,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "instant"
+				},
+				"67": {
+					"POS_X": 411.94144,
+					"POS_Y": -345.00477,
+					"POS_Z": 177.58373,
+					"ROT_X": 20.27774,
+					"ROT_Y": 11.12188,
+					"ROT_Z": -1288.43696,
+					"CAM_FOV": 20,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"105": {
+					"POS_X": 418.42244,
+					"POS_Y": -374.09046,
+					"POS_Z": 167.90258,
+					"ROT_X": 21.74564,
+					"ROT_Y": -9,
+					"ROT_Z": -1298.81196,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"143": {
+					"POS_X": 455.41989,
+					"POS_Y": -380.85941,
+					"POS_Z": 157.97627,
+					"ROT_X": 20.99564,
+					"ROT_Y": -9,
+					"ROT_Z": -1292.81196,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 1,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"151": {
+					"POS_X": 782.19445,
+					"POS_Y": 1157.3796,
+					"POS_Z": 389.02356,
+					"ROT_X": -0.278,
+					"ROT_Y": -2.53185,
+					"ROT_Z": -1625.24504,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 1,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"180": {
+					"POS_X": 778.27593,
+					"POS_Y": 1176.46924,
+					"POS_Z": 389.02356,
+					"ROT_X": -0.278,
+					"ROT_Y": 0.03757,
+					"ROT_Z": -1625.24504,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 0.01,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"200": {
+					"POS_X": 779.28705,
+					"POS_Y": 1176.46924,
+					"POS_Z": 423.67399,
+					"ROT_X": 2.08095,
+					"ROT_Y": 0.03757,
+					"ROT_Z": -1621.92662,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 0.01,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"650": {
+					"POS_X": 771.62712,
+					"POS_Y": 1176.62947,
+					"POS_Z": 423.63039,
+					"ROT_X": 2.20595,
+					"ROT_Y": 0.03757,
+					"ROT_Z": -1616.92662,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 0.01,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"690": {
+					"POS_X": 771.62712,
+					"POS_Y": 1017.10326,
+					"POS_Z": 423.63039,
+					"ROT_X": 15.8749,
+					"ROT_Y": 0.03757,
+					"ROT_Z": -1594.45734,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 0.01,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"779": {
+					"POS_X": 191.73863,
+					"POS_Y": 29.11316,
+					"POS_Z": 423.63039,
+					"ROT_X": 14.3814,
+					"ROT_Y": -1.13536,
+					"ROT_Z": -1409.60522,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 0.01,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"856": {
+					"POS_X": 191.73863,
+					"POS_Y": 29.11316,
+					"POS_Z": 423.63039,
+					"ROT_X": 14.3814,
+					"ROT_Y": -1.13536,
+					"ROT_Z": -1409.60522,
+					"MIX_COLOR": "#FFFFFF",
+					"MIX_PERCENT": 0.01,
+					"CAM_FOV": 35,
+					"CAM_SHAKE": 1,
+					"CAM_DOF": true,
+					"CAM_DOF_BLUR_SIZE": 0.01037,
+					"CAM_BLOOM_THRESHOLD": 0.74,
+					"CAM_BLOOM_INTENSITY": 2.08,
+					"CAM_BLOOM_BLEND": "#FF7800",
+					"CAM_COLOR_CORRECTION": true,
+					"CAM_CONTRAST": 0.31,
+					"CAM_BRIGHTNESS": 0.16,
+					"CAM_SATURATION": 1.14,
+					"CAM_VIBRANCE": 0.44,
+					"CAM_VIGNETTE": true,
+					"CAM_VIGNETTE_SOFTNESS": 0.46,
+					"CAM_CA": true,
+					"CAM_CA_BLUR_AMOUNT": 0,
+					"CAM_CA_RED_OFFSET": 0.02,
+					"CAM_CA_GREEN_OFFSET": 0,
+					"CAM_CA_BLUE_OFFSET": 0,
+					"TRANSITION": "easeinoutcubic"
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true
+		},
+		{
+			"id": "ZC8W1IL2SCNYW6KZ",
+			"type": "block",
+			"name": "",
+			"temp": "4719ZWW0SGY3YJ5A",
+			"color": "#800071",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 460.14888,
+				"POS_Y": -811.92425,
+				"POS_Z": 70.0492
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 0,
+					"POS_Y": 0.16198,
+					"POS_Z": -4.60221,
+					"ROT_X": 90
+				},
+				"138": {
+					"POS_X": 0,
+					"POS_Y": 0.16198,
+					"POS_Z": -4.60221,
+					"ROT_X": 90
+				}
+			},
+			"parent": "4L15D4C72CCG8EF0",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": false,
+			"rot_point": [ 8, 0, 8 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": true,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"wind": false,
+			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "IDH7QD14C549C0Z7",
+			"type": "pointlight",
+			"name": "",
+			"temp": "null",
+			"color": "#498000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"default_values": {
+				"POS_X": 426.11505,
+				"POS_Y": -369.05188,
+				"POS_Z": 136.64682
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 0,
+					"POS_Y": 0,
+					"POS_Z": 14.53219,
+					"LIGHT_COLOR": "#FF9C3B",
+					"LIGHT_FADE_SIZE": 1
+				},
+				"79": {
+					"POS_X": 0,
+					"POS_Y": 2.60868,
+					"POS_Z": 10.7726,
+					"LIGHT_COLOR": "#FF9C3B",
+					"LIGHT_FADE_SIZE": 1
+				},
+				"138": {
+					"POS_X": 0,
+					"POS_Y": 2.60868,
+					"POS_Z": 10.7726,
+					"LIGHT_COLOR": "#FF9C3B",
+					"LIGHT_FADE_SIZE": 1
+				}
+			},
+			"parent": "ZC8W1IL2SCNYW6KZ",
+			"parent_tree_index": 0,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "99I69179439NPTJ7",
 			"type": "char",
-			"name": "Fxdlll",
+			"name": "KasyDurman",
 			"temp": "F06Y470479LZ3JHI",
 			"color": "#80005D",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"parts": [
-				"ZC572E88YQTM72U2",
-				"06ZUMYMVUBF22KR8",
-				"509W71D3156AI3TY",
-				"XLX1H831S63TLK7D",
-				"66ML6DE8JU8LD71O",
-				"GAE68O50A1CK5P60",
-				"H42O9CS7UN8Y35A7"
+				"8RN5U1G8U5HYNHL5",
+				"3TUEGRVT3929RK51",
+				"5T4PLIK13S59SW5Z",
+				"4L15D4C72CCG8EF0",
+				"OVOS4P16B33D074Q",
+				"73XI0C84NZ441B13",
+				"8SR666Z6587DC9H7"
 			],
 			"default_values": {
 				"POS_X": 475.74457,
@@ -975,102 +2567,70 @@
 			},
 			"keyframes": {
 				"0": {
-					"POS_X": 453.40106,
-					"POS_Z": 128,
-					"ROT_X": 5.93404,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+					"POS_X": 461.62506,
+					"POS_Y": -488,
+					"POS_Z": 127.41151
 				},
 				"7": {
-					"POS_X": 453.40106,
-					"POS_Y": -506.55109,
-					"POS_Z": 128,
-					"ROT_X": 5.93404,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+					"POS_X": 461.62506,
+					"POS_Y": -484.20438,
+					"POS_Z": 128.22321
 				},
-				"13": {
-					"POS_X": 453.40106,
-					"POS_Y": -503.74452,
-					"POS_Z": 128,
-					"ROT_X": 5.93404,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				"15": {
+					"POS_X": 461.62506,
+					"POS_Y": -480.87089,
+					"POS_Z": 128
 				},
-				"19": {
-					"POS_X": 453.40106,
-					"POS_Y": -499.76065,
-					"POS_Z": 128,
-					"ROT_X": 5.93404,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				"23": {
+					"POS_X": 461.62506,
+					"POS_Y": -475.33965,
+					"POS_Z": 128.54162
 				},
 				"30": {
-					"POS_X": 453.40106,
-					"POS_Y": -493.09022,
-					"POS_Z": 128,
-					"ROT_X": 5.93404,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+					"POS_X": 461.62506,
+					"POS_Y": -469.80842,
+					"POS_Z": 128
 				},
-				"40": {
-					"POS_X": 453.40106,
-					"POS_Y": -480.93743,
-					"POS_Z": 128,
-					"ROT_X": 5.93404,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				"45": {
+					"POS_X": 461.62506,
+					"POS_Y": -459.46103,
+					"POS_Z": 128
 				},
-				"50": {
-					"POS_X": 453.40106,
-					"POS_Y": -474.35124,
-					"POS_Z": 128,
-					"ROT_X": 5.37175,
-					"ROT_Y": -1.23297,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				"53": {
+					"POS_X": 461.62506,
+					"POS_Y": -453.58894,
+					"POS_Z": 128.27944
 				},
 				"60": {
-					"POS_X": 453.40106,
-					"POS_Y": -462.42363,
-					"POS_Z": 128,
-					"ROT_X": 4.22088,
-					"ROT_Y": -1.23297,
-					"ROT_Z": -19.2715,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+					"POS_X": 461.62506,
+					"POS_Y": -448.45086,
+					"POS_Z": 128
 				},
-				"70": {
-					"POS_X": 450.38751,
-					"POS_Y": -453.36735,
-					"POS_Z": 128,
-					"ROT_X": 4.22088,
-					"ROT_Y": -1.23297,
-					"ROT_Z": -19.2715,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				"67": {
+					"POS_X": 461.62506,
+					"POS_Y": -442.70687,
+					"POS_Z": 128.35618
 				},
-				"80": {
-					"POS_X": 450.38751,
-					"POS_Y": -446.00604,
-					"POS_Z": 128,
-					"ROT_X": 4.22088,
-					"ROT_Y": -1.23297,
-					"ROT_Z": -19.2715,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
-				},
-				"85": {
-					"POS_X": 448.88643,
-					"POS_Y": -442.74661,
-					"POS_Z": 123.43345,
-					"ROT_X": 4.22088,
-					"ROT_Y": -1.23297,
-					"ROT_Z": -19.2715,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				"75": {
+					"POS_X": 461.62506,
+					"POS_Y": -437.68087,
+					"POS_Z": 128
 				},
 				"90": {
-					"POS_X": 448.88643,
-					"POS_Y": -440.37698,
-					"POS_Z": 123.43345,
-					"ROT_X": 4.22088,
-					"ROT_Y": -1.23297,
-					"ROT_Z": -19.2715,
-					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+					"POS_X": 461.62506,
+					"POS_Y": -437.68087,
+					"POS_Z": 123.55883,
+					"ROT_X": 5.45316
+				},
+				"138": {
+					"POS_X": 461.62506,
+					"POS_Y": -437.68087,
+					"POS_Z": 124.15954,
+					"ROT_X": 5.45316
 				}
 			},
 			"parent": "root",
-			"parent_tree_index": 5,
+			"parent_tree_index": 3,
 			"lock_bend": true,
 			"tree_extend": true,
 			"inherit": {
@@ -1105,457 +2665,21 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "O637G3Q10H4EFQ31",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#1D0080",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "left_leg",
-			"part_of": "119722D4Z17MYEE3",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": 6.36846,
-					"ROT_Y": 4.27312,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 19.37082
-				},
-				"7": {
-					"ROT_X": -9.35727,
-					"ROT_Y": 4.27312,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 77.19923
-				},
-				"15": {
-					"ROT_X": -27.32954,
-					"ROT_Y": 4.27312,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 19.37082
-				},
-				"30": {
-					"ROT_X": 23.59388,
-					"ROT_Y": 5.59002,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": -15.91901
-				},
-				"38": {
-					"ROT_X": -3.56528,
-					"ROT_Y": 4.88768,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 73.00459
-				},
-				"45": {
-					"ROT_X": -27.32954,
-					"ROT_Y": 4.27312,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 19.37082
-				},
-				"60": {
-					"ROT_X": 23.59388,
-					"ROT_Y": 5.59002,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": -15.91901
-				},
-				"67": {
-					"ROT_X": -0.17038,
-					"ROT_Y": 4.97547,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 88.43236
-				},
-				"75": {
-					"ROT_X": -27.32954,
-					"ROT_Y": 4.27312,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 19.37082
-				},
-				"90": {
-					"ROT_X": 23.59388,
-					"ROT_Y": 5.59002,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": -15.91901
-				},
-				"98": {
-					"ROT_X": 9.41896,
-					"ROT_Y": 5.59002,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 55.82857
-				},
-				"105": {
-					"ROT_X": 8.52177,
-					"ROT_Y": 5.59002,
-					"ROT_Z": 5.78185,
-					"BEND_ANGLE_X": 80.85178
-				}
-			},
-			"parent": "119722D4Z17MYEE3",
-			"parent_tree_index": 2,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "XWL43TI454IN9G93",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#80006F",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "right_leg",
-			"part_of": "119722D4Z17MYEE3",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": -23.50201,
-					"ROT_Y": -5.77429,
-					"BEND_ANGLE_X": 19.7769
-				},
-				"15": {
-					"ROT_X": 23.05542,
-					"ROT_Y": -5.77429,
-					"BEND_ANGLE_X": -30.06754
-				},
-				"23": {
-					"ROT_X": -2.42837,
-					"ROT_Y": -3.94454,
-					"BEND_ANGLE_X": 82.89478
-				},
-				"30": {
-					"ROT_X": -24.72669,
-					"ROT_Y": -2.34351,
-					"BEND_ANGLE_X": 19.40887
-				},
-				"45": {
-					"ROT_X": 23.05542,
-					"ROT_Y": -5.77429,
-					"BEND_ANGLE_X": -30.06754
-				},
-				"53": {
-					"ROT_X": -2.42837,
-					"ROT_Y": -3.94454,
-					"BEND_ANGLE_X": 91.98115
-				},
-				"60": {
-					"ROT_X": -24.72669,
-					"ROT_Y": -2.34351,
-					"BEND_ANGLE_X": 19.40887
-				},
-				"75": {
-					"ROT_X": 23.05542,
-					"ROT_Y": -5.77429,
-					"BEND_ANGLE_X": -30.06754
-				},
-				"83": {
-					"ROT_X": -2.42837,
-					"ROT_Y": -3.94454,
-					"BEND_ANGLE_X": 78.35324
-				},
-				"90": {
-					"ROT_X": -24.72669,
-					"ROT_Y": -2.34351,
-					"BEND_ANGLE_X": 19.40887
-				},
-				"105": {
-					"ROT_X": -77.53103,
-					"ROT_Y": -2.34351,
-					"BEND_ANGLE_X": 80.08779
-				}
-			},
-			"parent": "119722D4Z17MYEE3",
-			"parent_tree_index": 1,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "O59FR94RWV0UCM3I",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#800060",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "left_arm",
-			"part_of": "119722D4Z17MYEE3",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_Y": 10.11531,
-					"ROT_Z": -18.16422,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"15": {
-					"ROT_X": 24.15891,
-					"ROT_Y": 10.11531,
-					"ROT_Z": -0.92258,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"30": {
-					"ROT_Y": 10.11531,
-					"ROT_Z": -18.16422,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"45": {
-					"ROT_X": 24.15891,
-					"ROT_Y": 10.11531,
-					"ROT_Z": -0.92258,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"60": {
-					"ROT_Y": 10.11531,
-					"ROT_Z": -18.16422,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"75": {
-					"ROT_X": 24.15891,
-					"ROT_Y": 10.11531,
-					"ROT_Z": -0.92258,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"90": {
-					"ROT_Y": 10.11531,
-					"ROT_Z": -18.16422,
-					"BEND_ANGLE_X": 18.87898,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"105": {
-					"POS_X": 0.64854,
-					"POS_Y": 2.28441,
-					"ROT_Y": 73.64335,
-					"ROT_Z": -54.65431,
-					"BEND_ANGLE_X": 9.87204,
-					"TRANSITION": "easeinoutcubic"
-				}
-			},
-			"parent": "64ATBLMAHW8MVI75",
-			"parent_tree_index": 2,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "87W6477RQP2LCGG0",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#4A8000",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "right_arm",
-			"part_of": "119722D4Z17MYEE3",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": 25.38777,
-					"ROT_Y": -5.24995,
-					"ROT_Z": 5.93964,
-					"BEND_ANGLE_X": 29.69526,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"15": {
-					"ROT_X": -11.241,
-					"ROT_Y": -10.86499,
-					"ROT_Z": 18.8011,
-					"BEND_ANGLE_X": 1.68523,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"30": {
-					"ROT_X": 25.38777,
-					"ROT_Y": -5.24995,
-					"ROT_Z": 5.93964,
-					"BEND_ANGLE_X": 29.69526,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"45": {
-					"ROT_X": -11.241,
-					"ROT_Y": -10.86499,
-					"ROT_Z": 18.8011,
-					"BEND_ANGLE_X": 1.68523,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"60": {
-					"ROT_X": 25.38777,
-					"ROT_Y": -5.24995,
-					"ROT_Z": 5.93964,
-					"BEND_ANGLE_X": 29.69526,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"75": {
-					"ROT_X": -11.241,
-					"ROT_Y": -10.86499,
-					"ROT_Z": 18.8011,
-					"BEND_ANGLE_X": 1.68523,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"90": {
-					"ROT_X": -40.18963,
-					"ROT_Y": -5.24995,
-					"ROT_Z": 5.93964,
-					"BEND_ANGLE_X": 29.69526,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"105": {
-					"ROT_X": 6.35044,
-					"ROT_Y": -19.67765,
-					"ROT_Z": 9.36108,
-					"BEND_ANGLE_X": 60.59301,
-					"TRANSITION": "easeinoutcubic"
-				}
-			},
-			"parent": "64ATBLMAHW8MVI75",
-			"parent_tree_index": 1,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "5IC19RZ65642KRPW",
+			"id": "8RN5U1G8U5HYNHL5",
 			"type": "bodypart",
 			"name": "",
 			"temp": "F06Y470479LZ3JHI",
 			"color": "#338000",
 			"hide": false,
-			"lock": false,
+			"lock": true,
 			"depth": 0,
 			"model_part_name": "hat",
-			"part_of": "119722D4Z17MYEE3",
+			"part_of": "99I69179439NPTJ7",
 			"default_values": {
 			},
 			"keyframes": {
 			},
-			"parent": "J5OL14113NANK82X",
+			"parent": "3TUEGRVT3929RK51",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -1591,7 +2715,7 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "J5OL14113NANK82X",
+			"id": "3TUEGRVT3929RK51",
 			"type": "bodypart",
 			"name": "",
 			"temp": "F06Y470479LZ3JHI",
@@ -1600,60 +2724,60 @@
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "head",
-			"part_of": "119722D4Z17MYEE3",
+			"part_of": "99I69179439NPTJ7",
 			"default_values": {
 			},
 			"keyframes": {
 				"0": {
-					"ROT_X": -5.74517,
-					"ROT_Y": -1.07088,
-					"ROT_Z": 17.15028,
+					"ROT_X": -1.59984,
+					"ROT_Y": 1.92632,
+					"ROT_Z": -16.89771,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"15": {
-					"ROT_X": -5.74517,
-					"ROT_Y": 3.85668,
-					"ROT_Z": -20.87397,
+					"ROT_X": -1.59984,
+					"ROT_Y": 1.92632,
+					"ROT_Z": 16.88372,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"30": {
-					"ROT_X": -5.74517,
-					"ROT_Y": -1.897,
-					"ROT_Z": 12.65193,
+					"ROT_X": 14.41566,
+					"ROT_Y": -6.3878,
+					"ROT_Z": -16.72599,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"45": {
-					"ROT_X": 8.92388,
-					"ROT_Y": 4.3675,
-					"ROT_Z": -1.51955,
+					"ROT_X": 14.41566,
+					"ROT_Y": -5.03149,
+					"ROT_Z": 5.71608,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"60": {
-					"ROT_X": 7.59938,
-					"ROT_Y": -0.90959,
-					"ROT_Z": -9.45267,
+					"ROT_X": 19.40769,
+					"ROT_Y": -6.3878,
+					"ROT_Z": -16.72599,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"75": {
-					"ROT_X": 24.06293,
-					"ROT_Y": 4.3675,
-					"ROT_Z": -15.06026,
+					"ROT_X": 35.03963,
+					"ROT_Y": -5.03149,
+					"ROT_Z": 5.71608,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"90": {
-					"ROT_X": 17.5747,
-					"ROT_Y": -0.90959,
-					"ROT_Z": -19.35324,
+					"ROT_X": 12.6853,
+					"ROT_Y": -16.41673,
+					"ROT_Z": -42.07742,
 					"TRANSITION": "easeinoutcubic"
 				},
-				"105": {
-					"ROT_X": 17.5747,
-					"ROT_Y": -0.90959,
-					"ROT_Z": 28.3721,
+				"138": {
+					"ROT_X": 12.6853,
+					"ROT_Y": -16.41673,
+					"ROT_Z": -42.07742,
 					"TRANSITION": "easeinoutcubic"
 				}
 			},
-			"parent": "64ATBLMAHW8MVI75",
+			"parent": "OVOS4P16B33D074Q",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -1689,7 +2813,218 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "64ATBLMAHW8MVI75",
+			"id": "5T4PLIK13S59SW5Z",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#4A8000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "99I69179439NPTJ7",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 6.40392,
+					"ROT_Y": -12.28659,
+					"ROT_Z": 5.73746,
+					"BEND_ANGLE_X": 26.85887,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"15": {
+					"ROT_X": 35.04249,
+					"ROT_Y": -12.28659,
+					"ROT_Z": 5.73746,
+					"BEND_ANGLE_X": 19.8372,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"30": {
+					"ROT_X": -0.44197,
+					"ROT_Y": -17.54687,
+					"ROT_Z": 13.05849,
+					"BEND_ANGLE_X": 14.8115,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"45": {
+					"ROT_X": 17.40206,
+					"ROT_Y": -18.52579,
+					"ROT_Z": 10.52542,
+					"BEND_ANGLE_X": 25.69991,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"60": {
+					"ROT_X": -0.44197,
+					"ROT_Y": -17.54687,
+					"ROT_Z": 13.05849,
+					"BEND_ANGLE_X": 14.8115,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"75": {
+					"ROT_X": 17.40206,
+					"ROT_Y": -18.52579,
+					"ROT_Z": 10.52542,
+					"BEND_ANGLE_X": 25.69991,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"90": {
+					"POS_Y": 1.55126,
+					"ROT_X": -64.74507,
+					"ROT_Y": -43.09885,
+					"ROT_Z": 2.30718,
+					"BEND_ANGLE_X": 11.05953,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"138": {
+					"POS_Y": 1.55126,
+					"ROT_X": -64.74507,
+					"ROT_Y": -43.09885,
+					"ROT_Z": 2.30718,
+					"TRANSITION": "easeinoutcubic"
+				}
+			},
+			"parent": "OVOS4P16B33D074Q",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "4L15D4C72CCG8EF0",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#800060",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "99I69179439NPTJ7",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -82.01567,
+					"BEND_ANGLE_X": 16.21748,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"15": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -8.31261,
+					"BEND_ANGLE_X": 16.21748,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"30": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -29.16474,
+					"BEND_ANGLE_X": 16.21748,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"45": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -8.56852,
+					"BEND_ANGLE_X": 16.21748,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"60": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -29.16474,
+					"BEND_ANGLE_X": 16.21748,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"75": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -8.56852,
+					"BEND_ANGLE_X": 16.21748,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"90": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -1.13207,
+					"BEND_ANGLE_X": 43.64896,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"138": {
+					"ROT_X": -73.48115,
+					"ROT_Y": 24.40904,
+					"ROT_Z": -1.13207,
+					"BEND_ANGLE_X": 43.64896,
+					"TRANSITION": "easeinoutcubic"
+				}
+			},
+			"parent": "OVOS4P16B33D074Q",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "OVOS4P16B33D074Q",
 			"type": "bodypart",
 			"name": "",
 			"temp": "F06Y470479LZ3JHI",
@@ -1698,57 +3033,289 @@
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "body",
-			"part_of": "119722D4Z17MYEE3",
+			"part_of": "99I69179439NPTJ7",
 			"default_values": {
 			},
 			"keyframes": {
 				"0": {
-					"BEND_ANGLE_X": 8.51297,
-					"BEND_ANGLE_Z": -19.97766,
+					"ROT_X": 1.51683,
+					"BEND_ANGLE_X": 4.28195,
+					"BEND_ANGLE_Z": 16.35273,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"15": {
-					"BEND_ANGLE_X": 8.51297,
-					"BEND_ANGLE_Z": 18.22159,
+					"ROT_X": 1.51683,
+					"BEND_ANGLE_X": 4.28195,
+					"BEND_ANGLE_Z": -15.20017,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"30": {
-					"BEND_ANGLE_X": 8.51297,
-					"BEND_ANGLE_Z": -19.97766,
+					"ROT_X": 1.51683,
+					"BEND_ANGLE_X": 4.28195,
+					"BEND_ANGLE_Z": 16.5436,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"45": {
-					"BEND_ANGLE_X": 8.51297,
-					"BEND_ANGLE_Z": 18.22159,
+					"ROT_X": 1.51683,
+					"BEND_ANGLE_X": 4.28195,
+					"BEND_ANGLE_Z": -9.99238,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"60": {
-					"BEND_ANGLE_X": 16.77776,
-					"BEND_ANGLE_Z": 18.22159,
+					"ROT_X": 1.51683,
+					"BEND_ANGLE_X": 4.28195,
+					"BEND_ANGLE_Z": 16.5436,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"75": {
-					"BEND_ANGLE_X": 8.51297,
-					"BEND_ANGLE_Z": 18.22159,
+					"ROT_X": 1.51683,
+					"BEND_ANGLE_X": 4.28195,
+					"BEND_ANGLE_Z": -9.99238,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"90": {
-					"BEND_ANGLE_X": 33.53677,
-					"BEND_ANGLE_Z": 20.24217,
+					"ROT_X": 34.57832,
+					"BEND_ANGLE_X": 18.21631,
+					"BEND_ANGLE_Z": 52.70641,
 					"TRANSITION": "easeinoutcubic"
 				},
-				"105": {
-					"ROT_X": 35.9866,
-					"BEND_ANGLE_X": 19.18677,
-					"BEND_ANGLE_Y": 1.51762,
-					"BEND_ANGLE_Z": -44.50316,
+				"138": {
+					"ROT_X": 34.57832,
+					"BEND_ANGLE_X": 18.21631,
+					"BEND_ANGLE_Z": 52.70641,
 					"TRANSITION": "easeinoutcubic"
 				}
 			},
-			"parent": "119722D4Z17MYEE3",
+			"parent": "99I69179439NPTJ7",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": true,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "73XI0C84NZ441B13",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#80006F",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "99I69179439NPTJ7",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 13.7307,
+					"ROT_Y": -1.48692,
+					"ROT_Z": -1.3322,
+					"BEND_ANGLE_X": 5.78738
+				},
+				"7": {
+					"ROT_X": 1.03537,
+					"ROT_Y": -2.02346,
+					"ROT_Z": -1.35341,
+					"BEND_ANGLE_X": 57.9861
+				},
+				"15": {
+					"ROT_X": -11.65996,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 15.50095
+				},
+				"30": {
+					"ROT_X": 9.66591,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": -71.03874
+				},
+				"38": {
+					"ROT_X": 3.13224,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 51.7812
+				},
+				"45": {
+					"ROT_X": -23.00243,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 23.77138
+				},
+				"60": {
+					"ROT_X": 21.69636,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": -71.03874
+				},
+				"67": {
+					"ROT_X": 0.83692,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 71.43047
+				},
+				"75": {
+					"ROT_X": -23.00243,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 23.77138
+				},
+				"90": {
+					"ROT_X": -80.19822,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 74.34982
+				},
+				"138": {
+					"ROT_X": -80.19822,
+					"ROT_Y": -2.56,
+					"ROT_Z": -1.37462,
+					"BEND_ANGLE_X": 74.34982
+				}
+			},
+			"parent": "99I69179439NPTJ7",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "8SR666Z6587DC9H7",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#1D0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "99I69179439NPTJ7",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -31.58386,
+					"ROT_Y": 5.3761,
+					"ROT_Z": -0.20216,
+					"BEND_ANGLE_X": 27.66647
+				},
+				"15": {
+					"ROT_X": 19.06726,
+					"ROT_Y": 4.67159,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 13.13815
+				},
+				"23": {
+					"ROT_X": -4.88465,
+					"ROT_Y": 4.67159,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 80.97328
+				},
+				"30": {
+					"ROT_X": -28.83656,
+					"ROT_Y": 4.67159,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 27.84979
+				},
+				"45": {
+					"ROT_X": 6.88739,
+					"ROT_Y": 4.67159,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": -13.15541
+				},
+				"53": {
+					"ROT_X": -12.16538,
+					"ROT_Y": 4.67159,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 69.22667
+				},
+				"60": {
+					"ROT_X": -28.83656,
+					"ROT_Y": 4.67159,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 27.84979
+				},
+				"75": {
+					"ROT_X": 25.08926,
+					"ROT_Y": 5.51599,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": -13.15541
+				},
+				"90": {
+					"ROT_X": -10.54017,
+					"ROT_Y": 5.51599,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 102.47206
+				},
+				"138": {
+					"ROT_X": -10.54017,
+					"ROT_Y": 5.51599,
+					"ROT_Z": 0.15623,
+					"BEND_ANGLE_X": 102.47206
+				}
+			},
+			"parent": "99I69179439NPTJ7",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
 			"inherit": {
 				"position": true,
 				"rotation": true,
@@ -1945,221 +3512,7 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "8SR666Z6587DC9H7",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#1D0080",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "left_leg",
-			"part_of": "99I69179439NPTJ7",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": -31.58386,
-					"ROT_Y": 5.3761,
-					"ROT_Z": -0.20216,
-					"BEND_ANGLE_X": 27.66647
-				},
-				"15": {
-					"ROT_X": 19.06726,
-					"ROT_Y": 4.67159,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": 13.13815
-				},
-				"23": {
-					"ROT_X": -4.88465,
-					"ROT_Y": 4.67159,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": 80.97328
-				},
-				"30": {
-					"ROT_X": -28.83656,
-					"ROT_Y": 4.67159,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": 27.84979
-				},
-				"45": {
-					"ROT_X": 6.88739,
-					"ROT_Y": 4.67159,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": -13.15541
-				},
-				"53": {
-					"ROT_X": -12.16538,
-					"ROT_Y": 4.67159,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": 69.22667
-				},
-				"60": {
-					"ROT_X": -28.83656,
-					"ROT_Y": 4.67159,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": 27.84979
-				},
-				"75": {
-					"ROT_X": 25.08926,
-					"ROT_Y": 5.51599,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": -13.15541
-				},
-				"90": {
-					"ROT_X": -10.54017,
-					"ROT_Y": 5.51599,
-					"ROT_Z": 0.15623,
-					"BEND_ANGLE_X": 102.47206
-				}
-			},
-			"parent": "99I69179439NPTJ7",
-			"parent_tree_index": 2,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "73XI0C84NZ441B13",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#80006F",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "right_leg",
-			"part_of": "99I69179439NPTJ7",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": 13.7307,
-					"ROT_Y": -1.48692,
-					"ROT_Z": -1.3322,
-					"BEND_ANGLE_X": 5.78738
-				},
-				"7": {
-					"ROT_X": 1.03537,
-					"ROT_Y": -2.02346,
-					"ROT_Z": -1.35341,
-					"BEND_ANGLE_X": 57.9861
-				},
-				"15": {
-					"ROT_X": -11.65996,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": 15.50095
-				},
-				"30": {
-					"ROT_X": 9.66591,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": -71.03874
-				},
-				"38": {
-					"ROT_X": 3.13224,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": 51.7812
-				},
-				"45": {
-					"ROT_X": -23.00243,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": 23.77138
-				},
-				"60": {
-					"ROT_X": 21.69636,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": -71.03874
-				},
-				"67": {
-					"ROT_X": 0.83692,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": 71.43047
-				},
-				"75": {
-					"ROT_X": -23.00243,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": 23.77138
-				},
-				"90": {
-					"ROT_X": -80.19822,
-					"ROT_Y": -2.56,
-					"ROT_Z": -1.37462,
-					"BEND_ANGLE_X": 74.34982
-				}
-			},
-			"parent": "99I69179439NPTJ7",
-			"parent_tree_index": 1,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "OVOS4P16B33D074Q",
+			"id": "64ATBLMAHW8MVI75",
 			"type": "bodypart",
 			"name": "",
 			"temp": "F06Y470479LZ3JHI",
@@ -2168,54 +3521,54 @@
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "body",
-			"part_of": "99I69179439NPTJ7",
+			"part_of": "119722D4Z17MYEE3",
 			"default_values": {
 			},
 			"keyframes": {
 				"0": {
-					"ROT_X": 1.51683,
-					"BEND_ANGLE_X": 4.28195,
-					"BEND_ANGLE_Z": 16.35273,
+					"BEND_ANGLE_X": 8.51297,
+					"BEND_ANGLE_Z": -19.97766,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"15": {
-					"ROT_X": 1.51683,
-					"BEND_ANGLE_X": 4.28195,
-					"BEND_ANGLE_Z": -15.20017,
+					"BEND_ANGLE_X": 8.51297,
+					"BEND_ANGLE_Z": 18.22159,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"30": {
-					"ROT_X": 1.51683,
-					"BEND_ANGLE_X": 4.28195,
-					"BEND_ANGLE_Z": 16.5436,
+					"BEND_ANGLE_X": 8.51297,
+					"BEND_ANGLE_Z": -19.97766,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"45": {
-					"ROT_X": 1.51683,
-					"BEND_ANGLE_X": 4.28195,
-					"BEND_ANGLE_Z": -9.99238,
+					"BEND_ANGLE_X": 8.51297,
+					"BEND_ANGLE_Z": 18.22159,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"60": {
-					"ROT_X": 1.51683,
-					"BEND_ANGLE_X": 4.28195,
-					"BEND_ANGLE_Z": 16.5436,
+					"BEND_ANGLE_X": 16.77776,
+					"BEND_ANGLE_Z": 18.22159,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"75": {
-					"ROT_X": 1.51683,
-					"BEND_ANGLE_X": 4.28195,
-					"BEND_ANGLE_Z": -9.99238,
+					"BEND_ANGLE_X": 8.51297,
+					"BEND_ANGLE_Z": 18.22159,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"90": {
-					"ROT_X": 34.57832,
-					"BEND_ANGLE_X": 18.21631,
-					"BEND_ANGLE_Z": 52.70641,
+					"BEND_ANGLE_X": 33.53677,
+					"BEND_ANGLE_Z": 20.24217,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"105": {
+					"ROT_X": 35.9866,
+					"BEND_ANGLE_X": 19.18677,
+					"BEND_ANGLE_Y": 1.51762,
+					"BEND_ANGLE_Z": -44.50316,
 					"TRANSITION": "easeinoutcubic"
 				}
 			},
-			"parent": "99I69179439NPTJ7",
+			"parent": "119722D4Z17MYEE3",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": true,
@@ -2251,204 +3604,7 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "4L15D4C72CCG8EF0",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#800060",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "left_arm",
-			"part_of": "99I69179439NPTJ7",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": -82.01567,
-					"BEND_ANGLE_X": 16.21748,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"15": {
-					"ROT_X": -73.48115,
-					"ROT_Y": 24.40904,
-					"ROT_Z": -8.31261,
-					"BEND_ANGLE_X": 16.21748,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"30": {
-					"ROT_X": -73.48115,
-					"ROT_Y": 24.40904,
-					"ROT_Z": -29.16474,
-					"BEND_ANGLE_X": 16.21748,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"45": {
-					"ROT_X": -73.48115,
-					"ROT_Y": 24.40904,
-					"ROT_Z": -8.56852,
-					"BEND_ANGLE_X": 16.21748,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"60": {
-					"ROT_X": -73.48115,
-					"ROT_Y": 24.40904,
-					"ROT_Z": -29.16474,
-					"BEND_ANGLE_X": 16.21748,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"75": {
-					"ROT_X": -73.48115,
-					"ROT_Y": 24.40904,
-					"ROT_Z": -8.56852,
-					"BEND_ANGLE_X": 16.21748,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"90": {
-					"ROT_X": -73.48115,
-					"ROT_Y": 24.40904,
-					"ROT_Z": -1.13207,
-					"BEND_ANGLE_X": 43.64896,
-					"TRANSITION": "easeinoutcubic"
-				}
-			},
-			"parent": "OVOS4P16B33D074Q",
-			"parent_tree_index": 2,
-			"lock_bend": true,
-			"tree_extend": true,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "5T4PLIK13S59SW5Z",
-			"type": "bodypart",
-			"name": "",
-			"temp": "F06Y470479LZ3JHI",
-			"color": "#4A8000",
-			"hide": false,
-			"lock": false,
-			"depth": 0,
-			"model_part_name": "right_arm",
-			"part_of": "99I69179439NPTJ7",
-			"default_values": {
-			},
-			"keyframes": {
-				"0": {
-					"ROT_X": 6.40392,
-					"ROT_Y": -12.28659,
-					"ROT_Z": 5.73746,
-					"BEND_ANGLE_X": 26.85887,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"15": {
-					"ROT_X": 35.04249,
-					"ROT_Y": -12.28659,
-					"ROT_Z": 5.73746,
-					"BEND_ANGLE_X": 19.8372,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"30": {
-					"ROT_X": -0.44197,
-					"ROT_Y": -17.54687,
-					"ROT_Z": 13.05849,
-					"BEND_ANGLE_X": 14.8115,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"45": {
-					"ROT_X": 17.40206,
-					"ROT_Y": -18.52579,
-					"ROT_Z": 10.52542,
-					"BEND_ANGLE_X": 25.69991,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"60": {
-					"ROT_X": -0.44197,
-					"ROT_Y": -17.54687,
-					"ROT_Z": 13.05849,
-					"BEND_ANGLE_X": 14.8115,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"75": {
-					"ROT_X": 17.40206,
-					"ROT_Y": -18.52579,
-					"ROT_Z": 10.52542,
-					"BEND_ANGLE_X": 25.69991,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"90": {
-					"POS_Y": 1.55126,
-					"ROT_X": -64.74507,
-					"ROT_Y": -43.09885,
-					"ROT_Z": 2.30718,
-					"BEND_ANGLE_X": 11.05953,
-					"TRANSITION": "easeinoutcubic"
-				}
-			},
-			"parent": "OVOS4P16B33D074Q",
-			"parent_tree_index": 1,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": true,
-				"color": true,
-				"texture": true,
-				"visibility": true,
-				"bend": false,
-				"rot_point": true,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": false,
-			"rot_point_custom": false,
-			"rot_point": [ 0, 0, 0 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": false,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "3TUEGRVT3929RK51",
+			"id": "J5OL14113NANK82X",
 			"type": "bodypart",
 			"name": "",
 			"temp": "F06Y470479LZ3JHI",
@@ -2457,54 +3613,60 @@
 			"lock": false,
 			"depth": 0,
 			"model_part_name": "head",
-			"part_of": "99I69179439NPTJ7",
+			"part_of": "119722D4Z17MYEE3",
 			"default_values": {
 			},
 			"keyframes": {
 				"0": {
-					"ROT_X": -1.59984,
-					"ROT_Y": 1.92632,
-					"ROT_Z": -16.89771,
+					"ROT_X": -5.74517,
+					"ROT_Y": -1.07088,
+					"ROT_Z": 17.15028,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"15": {
-					"ROT_X": -1.59984,
-					"ROT_Y": 1.92632,
-					"ROT_Z": 16.88372,
+					"ROT_X": -5.74517,
+					"ROT_Y": 3.85668,
+					"ROT_Z": -20.87397,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"30": {
-					"ROT_X": 14.41566,
-					"ROT_Y": -6.3878,
-					"ROT_Z": -16.72599,
+					"ROT_X": -5.74517,
+					"ROT_Y": -1.897,
+					"ROT_Z": 12.65193,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"45": {
-					"ROT_X": 14.41566,
-					"ROT_Y": -5.03149,
-					"ROT_Z": 5.71608,
+					"ROT_X": 8.92388,
+					"ROT_Y": 4.3675,
+					"ROT_Z": -1.51955,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"60": {
-					"ROT_X": 19.40769,
-					"ROT_Y": -6.3878,
-					"ROT_Z": -16.72599,
+					"ROT_X": 7.59938,
+					"ROT_Y": -0.90959,
+					"ROT_Z": -9.45267,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"75": {
-					"ROT_X": 35.03963,
-					"ROT_Y": -5.03149,
-					"ROT_Z": 5.71608,
+					"ROT_X": 24.06293,
+					"ROT_Y": 4.3675,
+					"ROT_Z": -15.06026,
 					"TRANSITION": "easeinoutcubic"
 				},
 				"90": {
-					"ROT_X": 12.6853,
-					"ROT_Y": -16.41673,
-					"ROT_Z": -42.07742,
+					"ROT_X": 17.5747,
+					"ROT_Y": -0.90959,
+					"ROT_Z": -19.35324,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"105": {
+					"ROT_X": 17.5747,
+					"ROT_Y": -0.90959,
+					"ROT_Z": 28.3721,
 					"TRANSITION": "easeinoutcubic"
 				}
 			},
-			"parent": "OVOS4P16B33D074Q",
+			"parent": "64ATBLMAHW8MVI75",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -2540,21 +3702,21 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "8RN5U1G8U5HYNHL5",
+			"id": "5IC19RZ65642KRPW",
 			"type": "bodypart",
 			"name": "",
 			"temp": "F06Y470479LZ3JHI",
 			"color": "#338000",
 			"hide": false,
-			"lock": true,
+			"lock": false,
 			"depth": 0,
 			"model_part_name": "hat",
-			"part_of": "99I69179439NPTJ7",
+			"part_of": "119722D4Z17MYEE3",
 			"default_values": {
 			},
 			"keyframes": {
 			},
-			"parent": "3TUEGRVT3929RK51",
+			"parent": "J5OL14113NANK82X",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -2590,22 +3752,458 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "99I69179439NPTJ7",
+			"id": "87W6477RQP2LCGG0",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#4A8000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "119722D4Z17MYEE3",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 25.38777,
+					"ROT_Y": -5.24995,
+					"ROT_Z": 5.93964,
+					"BEND_ANGLE_X": 29.69526,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"15": {
+					"ROT_X": -11.241,
+					"ROT_Y": -10.86499,
+					"ROT_Z": 18.8011,
+					"BEND_ANGLE_X": 1.68523,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"30": {
+					"ROT_X": 25.38777,
+					"ROT_Y": -5.24995,
+					"ROT_Z": 5.93964,
+					"BEND_ANGLE_X": 29.69526,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"45": {
+					"ROT_X": -11.241,
+					"ROT_Y": -10.86499,
+					"ROT_Z": 18.8011,
+					"BEND_ANGLE_X": 1.68523,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"60": {
+					"ROT_X": 25.38777,
+					"ROT_Y": -5.24995,
+					"ROT_Z": 5.93964,
+					"BEND_ANGLE_X": 29.69526,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"75": {
+					"ROT_X": -11.241,
+					"ROT_Y": -10.86499,
+					"ROT_Z": 18.8011,
+					"BEND_ANGLE_X": 1.68523,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"90": {
+					"ROT_X": -40.18963,
+					"ROT_Y": -5.24995,
+					"ROT_Z": 5.93964,
+					"BEND_ANGLE_X": 29.69526,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"105": {
+					"ROT_X": 6.35044,
+					"ROT_Y": -19.67765,
+					"ROT_Z": 9.36108,
+					"BEND_ANGLE_X": 60.59301,
+					"TRANSITION": "easeinoutcubic"
+				}
+			},
+			"parent": "64ATBLMAHW8MVI75",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "O59FR94RWV0UCM3I",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#800060",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "119722D4Z17MYEE3",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_Y": 10.11531,
+					"ROT_Z": -18.16422,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"15": {
+					"ROT_X": 24.15891,
+					"ROT_Y": 10.11531,
+					"ROT_Z": -0.92258,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"30": {
+					"ROT_Y": 10.11531,
+					"ROT_Z": -18.16422,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"45": {
+					"ROT_X": 24.15891,
+					"ROT_Y": 10.11531,
+					"ROT_Z": -0.92258,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"60": {
+					"ROT_Y": 10.11531,
+					"ROT_Z": -18.16422,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"75": {
+					"ROT_X": 24.15891,
+					"ROT_Y": 10.11531,
+					"ROT_Z": -0.92258,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"90": {
+					"ROT_Y": 10.11531,
+					"ROT_Z": -18.16422,
+					"BEND_ANGLE_X": 18.87898,
+					"TRANSITION": "easeinoutcubic"
+				},
+				"105": {
+					"POS_X": 0.64854,
+					"POS_Y": 2.28441,
+					"ROT_Y": 73.64335,
+					"ROT_Z": -54.65431,
+					"BEND_ANGLE_X": 9.87204,
+					"TRANSITION": "easeinoutcubic"
+				}
+			},
+			"parent": "64ATBLMAHW8MVI75",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "XWL43TI454IN9G93",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#80006F",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "119722D4Z17MYEE3",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -23.50201,
+					"ROT_Y": -5.77429,
+					"BEND_ANGLE_X": 19.7769
+				},
+				"15": {
+					"ROT_X": 23.05542,
+					"ROT_Y": -5.77429,
+					"BEND_ANGLE_X": -30.06754
+				},
+				"23": {
+					"ROT_X": -2.42837,
+					"ROT_Y": -3.94454,
+					"BEND_ANGLE_X": 82.89478
+				},
+				"30": {
+					"ROT_X": -24.72669,
+					"ROT_Y": -2.34351,
+					"BEND_ANGLE_X": 19.40887
+				},
+				"45": {
+					"ROT_X": 23.05542,
+					"ROT_Y": -5.77429,
+					"BEND_ANGLE_X": -30.06754
+				},
+				"53": {
+					"ROT_X": -2.42837,
+					"ROT_Y": -3.94454,
+					"BEND_ANGLE_X": 91.98115
+				},
+				"60": {
+					"ROT_X": -24.72669,
+					"ROT_Y": -2.34351,
+					"BEND_ANGLE_X": 19.40887
+				},
+				"75": {
+					"ROT_X": 23.05542,
+					"ROT_Y": -5.77429,
+					"BEND_ANGLE_X": -30.06754
+				},
+				"83": {
+					"ROT_X": -2.42837,
+					"ROT_Y": -3.94454,
+					"BEND_ANGLE_X": 78.35324
+				},
+				"90": {
+					"ROT_X": -24.72669,
+					"ROT_Y": -2.34351,
+					"BEND_ANGLE_X": 19.40887
+				},
+				"105": {
+					"ROT_X": -77.53103,
+					"ROT_Y": -2.34351,
+					"BEND_ANGLE_X": 80.08779
+				}
+			},
+			"parent": "119722D4Z17MYEE3",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "O637G3Q10H4EFQ31",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#1D0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "119722D4Z17MYEE3",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 6.36846,
+					"ROT_Y": 4.27312,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 19.37082
+				},
+				"7": {
+					"ROT_X": -9.35727,
+					"ROT_Y": 4.27312,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 77.19923
+				},
+				"15": {
+					"ROT_X": -27.32954,
+					"ROT_Y": 4.27312,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 19.37082
+				},
+				"30": {
+					"ROT_X": 23.59388,
+					"ROT_Y": 5.59002,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": -15.91901
+				},
+				"38": {
+					"ROT_X": -3.56528,
+					"ROT_Y": 4.88768,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 73.00459
+				},
+				"45": {
+					"ROT_X": -27.32954,
+					"ROT_Y": 4.27312,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 19.37082
+				},
+				"60": {
+					"ROT_X": 23.59388,
+					"ROT_Y": 5.59002,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": -15.91901
+				},
+				"67": {
+					"ROT_X": -0.17038,
+					"ROT_Y": 4.97547,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 88.43236
+				},
+				"75": {
+					"ROT_X": -27.32954,
+					"ROT_Y": 4.27312,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 19.37082
+				},
+				"90": {
+					"ROT_X": 23.59388,
+					"ROT_Y": 5.59002,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": -15.91901
+				},
+				"98": {
+					"ROT_X": 9.41896,
+					"ROT_Y": 5.59002,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 55.82857
+				},
+				"105": {
+					"ROT_X": 8.52177,
+					"ROT_Y": 5.59002,
+					"ROT_Z": 5.78185,
+					"BEND_ANGLE_X": 80.85178
+				}
+			},
+			"parent": "119722D4Z17MYEE3",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "W8TT2WG73MO71M39",
 			"type": "char",
-			"name": "KasyDurman",
+			"name": "Fxdlll",
 			"temp": "F06Y470479LZ3JHI",
 			"color": "#80005D",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
 			"parts": [
-				"8RN5U1G8U5HYNHL5",
-				"3TUEGRVT3929RK51",
-				"5T4PLIK13S59SW5Z",
-				"4L15D4C72CCG8EF0",
-				"OVOS4P16B33D074Q",
-				"73XI0C84NZ441B13",
-				"8SR666Z6587DC9H7"
+				"ZC572E88YQTM72U2",
+				"06ZUMYMVUBF22KR8",
+				"509W71D3156AI3TY",
+				"XLX1H831S63TLK7D",
+				"66ML6DE8JU8LD71O",
+				"GAE68O50A1CK5P60",
+				"H42O9CS7UN8Y35A7"
 			],
 			"default_values": {
 				"POS_X": 475.74457,
@@ -2614,64 +4212,111 @@
 			},
 			"keyframes": {
 				"0": {
-					"POS_X": 461.62506,
-					"POS_Y": -488,
-					"POS_Z": 127.41151
+					"POS_X": 453.40106,
+					"POS_Z": 128,
+					"ROT_X": 5.93404,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
 				"7": {
-					"POS_X": 461.62506,
-					"POS_Y": -484.20438,
-					"POS_Z": 128.22321
+					"POS_X": 453.40106,
+					"POS_Y": -506.55109,
+					"POS_Z": 128,
+					"ROT_X": 5.93404,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
-				"15": {
-					"POS_X": 461.62506,
-					"POS_Y": -480.87089,
-					"POS_Z": 128
+				"13": {
+					"POS_X": 453.40106,
+					"POS_Y": -503.74452,
+					"POS_Z": 128,
+					"ROT_X": 5.93404,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
-				"23": {
-					"POS_X": 461.62506,
-					"POS_Y": -475.33965,
-					"POS_Z": 128.54162
+				"19": {
+					"POS_X": 453.40106,
+					"POS_Y": -499.76065,
+					"POS_Z": 128,
+					"ROT_X": 5.93404,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
 				"30": {
-					"POS_X": 461.62506,
-					"POS_Y": -469.80842,
-					"POS_Z": 128
+					"POS_X": 453.40106,
+					"POS_Y": -493.09022,
+					"POS_Z": 128,
+					"ROT_X": 5.93404,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
-				"45": {
-					"POS_X": 461.62506,
-					"POS_Y": -459.46103,
-					"POS_Z": 128
+				"40": {
+					"POS_X": 453.40106,
+					"POS_Y": -480.93743,
+					"POS_Z": 128,
+					"ROT_X": 5.93404,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
-				"53": {
-					"POS_X": 461.62506,
-					"POS_Y": -453.58894,
-					"POS_Z": 128.27944
+				"50": {
+					"POS_X": 453.40106,
+					"POS_Y": -474.35124,
+					"POS_Z": 128,
+					"ROT_X": 5.37175,
+					"ROT_Y": -1.23297,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
 				"60": {
-					"POS_X": 461.62506,
-					"POS_Y": -448.45086,
-					"POS_Z": 128
+					"POS_X": 453.40106,
+					"POS_Y": -462.42363,
+					"POS_Z": 128,
+					"ROT_X": 4.22088,
+					"ROT_Y": -1.23297,
+					"ROT_Z": -19.2715,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
-				"67": {
-					"POS_X": 461.62506,
-					"POS_Y": -442.70687,
-					"POS_Z": 128.35618
+				"70": {
+					"POS_X": 450.38751,
+					"POS_Y": -453.36735,
+					"POS_Z": 128,
+					"ROT_X": 4.22088,
+					"ROT_Y": -1.23297,
+					"ROT_Z": -19.2715,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
-				"75": {
-					"POS_X": 461.62506,
-					"POS_Y": -437.68087,
-					"POS_Z": 128
+				"80": {
+					"POS_X": 450.38751,
+					"POS_Y": -446.00604,
+					"POS_Z": 128,
+					"ROT_X": 4.22088,
+					"ROT_Y": -1.23297,
+					"ROT_Z": -19.2715,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				},
+				"85": {
+					"POS_X": 448.88643,
+					"POS_Y": -442.74661,
+					"POS_Z": 123.43345,
+					"ROT_X": 4.22088,
+					"ROT_Y": -1.23297,
+					"ROT_Z": -19.2715,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				},
 				"90": {
-					"POS_X": 461.62506,
-					"POS_Y": -437.68087,
-					"POS_Z": 123.55883,
-					"ROT_X": 5.45316
+					"POS_X": 448.88643,
+					"POS_Y": -440.37698,
+					"POS_Z": 123.43345,
+					"ROT_X": 4.22088,
+					"ROT_Y": -1.23297,
+					"ROT_Z": -19.2715,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
+				},
+				"94": {
+					"POS_X": 450.96229,
+					"POS_Y": -433.08733,
+					"POS_Z": 123.43345,
+					"ROT_X": 4.22088,
+					"ROT_Y": -1.23297,
+					"ROT_Z": -19.2715,
+					"TEXTURE_OBJ": "C9WU0512GLL020DS"
 				}
 			},
 			"parent": "root",
-			"parent_tree_index": 3,
+			"parent_tree_index": 5,
 			"lock_bend": true,
 			"tree_extend": true,
 			"inherit": {
@@ -2706,53 +4351,119 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "IDH7QD14C549C0Z7",
-			"type": "pointlight",
+			"id": "66ML6DE8JU8LD71O",
+			"type": "bodypart",
 			"name": "",
-			"temp": "null",
-			"color": "#498000",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#0F8000",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
+			"model_part_name": "body",
+			"part_of": "W8TT2WG73MO71M39",
 			"default_values": {
-				"POS_X": 426.11505,
-				"POS_Y": -369.05188,
-				"POS_Z": 136.64682
 			},
 			"keyframes": {
-				"0": {
-					"POS_X": 0,
-					"POS_Y": 0,
-					"POS_Z": 14.53219,
-					"LIGHT_COLOR": "#FF9C3B",
-					"LIGHT_FADE_SIZE": 1
+				"9": {
+					"ROT_Y": 1.51859,
+					"BEND_ANGLE_Z": 6.13608
 				},
-				"79": {
-					"POS_X": 0,
-					"POS_Y": 2.60868,
-					"POS_Z": 10.7726,
-					"LIGHT_COLOR": "#FF9C3B",
-					"LIGHT_FADE_SIZE": 1
+				"60": {
+					"ROT_X": 4.21405,
+					"ROT_Y": 1.51859,
+					"ROT_Z": -1.17099,
+					"BEND_ANGLE_Z": 23.88235
+				},
+				"70": {
+					"ROT_X": 12.69812,
+					"ROT_Y": 1.51859,
+					"ROT_Z": -1.17099,
+					"BEND_ANGLE_Z": 23.88235
+				},
+				"85": {
+					"ROT_X": 12.69812,
+					"ROT_Y": 3.4599,
+					"ROT_Z": -1.17099,
+					"BEND_ANGLE_X": 8.48168,
+					"BEND_ANGLE_Z": 9.375
+				},
+				"90": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -3.93342,
+					"BEND_ANGLE_X": 6.59686,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 20.625
+				},
+				"91": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -3.93342,
+					"BEND_ANGLE_X": -2.82723,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 20.625
+				},
+				"94": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -20.52186,
+					"BEND_ANGLE_X": 19.79058,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 43.125
+				},
+				"95": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -20.52186,
+					"BEND_ANGLE_X": 8.48168,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 43.125
+				},
+				"100": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -20.52186,
+					"BEND_ANGLE_X": 53.71728,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 41.25
+				},
+				"101": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -20.52186,
+					"BEND_ANGLE_X": 61.25654,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 43.125
+				},
+				"104": {
+					"ROT_X": 21.35971,
+					"ROT_Y": 0.58753,
+					"ROT_Z": -20.52186,
+					"BEND_ANGLE_X": 81.98953,
+					"BEND_ANGLE_Y": -11.25,
+					"BEND_ANGLE_Z": 43.125
 				}
 			},
-			"parent": "ZC8W1IL2SCNYW6KZ",
+			"parent": "W8TT2WG73MO71M39",
 			"parent_tree_index": 0,
 			"lock_bend": true,
-			"tree_extend": false,
+			"tree_extend": true,
 			"inherit": {
 				"position": true,
 				"rotation": true,
 				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
+				"alpha": true,
+				"color": true,
+				"texture": true,
 				"visibility": true,
 				"bend": false,
-				"rot_point": false,
+				"rot_point": true,
 				"glow_color": true,
 				"select": false
 			},
-			"scale_resize": true,
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
 			"backfaces": false,
 			"texture_blur": false,
 			"texture_filtering": false,
@@ -2769,28 +4480,54 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "ZC8W1IL2SCNYW6KZ",
-			"type": "block",
+			"id": "06ZUMYMVUBF22KR8",
+			"type": "bodypart",
 			"name": "",
-			"temp": "4719ZWW0SGY3YJ5A",
-			"color": "#800071",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#00806B",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
+			"model_part_name": "head",
+			"part_of": "W8TT2WG73MO71M39",
 			"default_values": {
-				"POS_X": 460.14888,
-				"POS_Y": -811.92425,
-				"POS_Z": 70.0492
 			},
 			"keyframes": {
-				"0": {
-					"POS_X": 0,
-					"POS_Y": 0.16198,
-					"POS_Z": -4.60221,
-					"ROT_X": 90
+				"30": {
+					"ROT_Z": -6.61835
+				},
+				"40": {
+					"ROT_X": 12.67761,
+					"ROT_Y": 1.89896,
+					"ROT_Z": -22.51917
+				},
+				"50": {
+					"ROT_X": 17.11996,
+					"ROT_Y": 0.84471,
+					"ROT_Z": -13.85179
+				},
+				"70": {
+					"ROT_X": 17.11996,
+					"ROT_Y": 0.84471,
+					"ROT_Z": -3.37422
+				},
+				"85": {
+					"ROT_X": 34.62561,
+					"ROT_Y": 0.84471,
+					"ROT_Z": 11.42879
+				},
+				"94": {
+					"ROT_X": 34.62561,
+					"ROT_Y": 0.84471,
+					"ROT_Z": -12.61632
+				},
+				"104": {
+					"ROT_X": -5.65447,
+					"ROT_Y": 5.06433,
+					"ROT_Z": -23.73347
 				}
 			},
-			"parent": "4L15D4C72CCG8EF0",
+			"parent": "66ML6DE8JU8LD71O",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": true,
@@ -2798,29 +4535,27 @@
 				"position": true,
 				"rotation": true,
 				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
+				"alpha": true,
+				"color": true,
+				"texture": true,
 				"visibility": true,
 				"bend": false,
-				"rot_point": false,
+				"rot_point": true,
 				"glow_color": true,
 				"select": false
 			},
-			"scale_resize": true,
+			"scale_resize": false,
 			"rot_point_custom": false,
-			"rot_point": [ 8, 0, 8 ],
+			"rot_point": [ 0, 0, 0 ],
 			"backfaces": false,
 			"texture_blur": false,
-			"texture_filtering": true,
+			"texture_filtering": false,
 			"shadows": true,
 			"ssao": true,
 			"glow": false,
 			"glow_texture": true,
 			"only_render_glow": false,
 			"fog": true,
-			"wind": false,
-			"wind_terrain": true,
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
@@ -2828,264 +4563,21 @@
 			"blend_mode": "normal"
 		},
 		{
-			"id": "2I40680VTA78S2GF",
-			"type": "camera",
+			"id": "ZC572E88YQTM72U2",
+			"type": "bodypart",
 			"name": "",
-			"temp": "null",
-			"color": "#800066",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#338000",
 			"hide": false,
 			"lock": false,
 			"depth": 0,
+			"model_part_name": "hat",
+			"part_of": "W8TT2WG73MO71M39",
 			"default_values": {
-				"POS_X": 441.41483,
-				"POS_Y": -365.96031,
-				"POS_Z": 153.42595,
-				"ROT_X": 3.62064,
-				"ROT_Z": -1267.18696
 			},
 			"keyframes": {
-				"0": {
-					"POS_X": 426.11506,
-					"POS_Y": -369.05187,
-					"POS_Z": 152.64682,
-					"ROT_X": 4.12064,
-					"ROT_Y": -5,
-					"ROT_Z": -1280.31196,
-					"CAM_FOV": 28,
-					"CAM_SHAKE": 1,
-					"CAM_DOF": true,
-					"CAM_DOF_BLUR_SIZE": 0.01037,
-					"CAM_BLOOM_THRESHOLD": 0.74,
-					"CAM_BLOOM_INTENSITY": 2.08,
-					"CAM_BLOOM_BLEND": "#FF7800",
-					"CAM_COLOR_CORRECTION": true,
-					"CAM_CONTRAST": 0.31,
-					"CAM_BRIGHTNESS": 0.16,
-					"CAM_SATURATION": 1.14,
-					"CAM_VIBRANCE": 0.44,
-					"CAM_VIGNETTE": true,
-					"CAM_VIGNETTE_SOFTNESS": 0.46,
-					"CAM_CA": true,
-					"CAM_CA_BLUR_AMOUNT": 0,
-					"CAM_CA_RED_OFFSET": 0.02,
-					"CAM_CA_GREEN_OFFSET": 0,
-					"CAM_CA_BLUE_OFFSET": 0,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"45": {
-					"POS_X": 426.11506,
-					"POS_Y": -369.05187,
-					"POS_Z": 152.64682,
-					"ROT_X": 4.62064,
-					"ROT_Y": -4,
-					"ROT_Z": -1282.18696,
-					"CAM_FOV": 22,
-					"CAM_SHAKE": 1,
-					"CAM_DOF": true,
-					"CAM_DOF_BLUR_SIZE": 0.01037,
-					"CAM_BLOOM_THRESHOLD": 0.74,
-					"CAM_BLOOM_INTENSITY": 2.08,
-					"CAM_BLOOM_BLEND": "#FF7800",
-					"CAM_COLOR_CORRECTION": true,
-					"CAM_CONTRAST": 0.31,
-					"CAM_BRIGHTNESS": 0.16,
-					"CAM_SATURATION": 1.14,
-					"CAM_VIBRANCE": 0.44,
-					"CAM_VIGNETTE": true,
-					"CAM_VIGNETTE_SOFTNESS": 0.46,
-					"CAM_CA": true,
-					"CAM_CA_BLUR_AMOUNT": 0,
-					"CAM_CA_RED_OFFSET": 0.02,
-					"CAM_CA_GREEN_OFFSET": 0,
-					"CAM_CA_BLUE_OFFSET": 0,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"60": {
-					"POS_X": 426.11506,
-					"POS_Y": -369.05187,
-					"POS_Z": 152.64682,
-					"ROT_X": 17.74564,
-					"ROT_Y": -10,
-					"ROT_Z": -1292.06196,
-					"CAM_FOV": 20,
-					"CAM_SHAKE": 1,
-					"CAM_DOF": true,
-					"CAM_DOF_BLUR_SIZE": 0.01037,
-					"CAM_BLOOM_THRESHOLD": 0.74,
-					"CAM_BLOOM_INTENSITY": 2.08,
-					"CAM_BLOOM_BLEND": "#FF7800",
-					"CAM_COLOR_CORRECTION": true,
-					"CAM_CONTRAST": 0.31,
-					"CAM_BRIGHTNESS": 0.16,
-					"CAM_SATURATION": 1.14,
-					"CAM_VIBRANCE": 0.44,
-					"CAM_VIGNETTE": true,
-					"CAM_VIGNETTE_SOFTNESS": 0.46,
-					"CAM_CA": true,
-					"CAM_CA_BLUR_AMOUNT": 0,
-					"CAM_CA_RED_OFFSET": 0.02,
-					"CAM_CA_GREEN_OFFSET": 0,
-					"CAM_CA_BLUE_OFFSET": 0,
-					"TRANSITION": "instant"
-				},
-				"67": {
-					"POS_X": 411.94144,
-					"POS_Y": -345.00477,
-					"POS_Z": 177.58373,
-					"ROT_X": 20.27774,
-					"ROT_Y": 11.12188,
-					"ROT_Z": -1288.43696,
-					"CAM_FOV": 20,
-					"CAM_SHAKE": 1,
-					"CAM_DOF": true,
-					"CAM_DOF_BLUR_SIZE": 0.01037,
-					"CAM_BLOOM_THRESHOLD": 0.74,
-					"CAM_BLOOM_INTENSITY": 2.08,
-					"CAM_BLOOM_BLEND": "#FF7800",
-					"CAM_COLOR_CORRECTION": true,
-					"CAM_CONTRAST": 0.31,
-					"CAM_BRIGHTNESS": 0.16,
-					"CAM_SATURATION": 1.14,
-					"CAM_VIBRANCE": 0.44,
-					"CAM_VIGNETTE": true,
-					"CAM_VIGNETTE_SOFTNESS": 0.46,
-					"CAM_CA": true,
-					"CAM_CA_BLUR_AMOUNT": 0,
-					"CAM_CA_RED_OFFSET": 0.02,
-					"CAM_CA_GREEN_OFFSET": 0,
-					"CAM_CA_BLUE_OFFSET": 0,
-					"TRANSITION": "easeinoutcubic"
-				},
-				"105": {
-					"POS_X": 418.42244,
-					"POS_Y": -374.09046,
-					"POS_Z": 167.90258,
-					"ROT_X": 21.74564,
-					"ROT_Y": -9,
-					"ROT_Z": -1298.81196,
-					"CAM_FOV": 35,
-					"CAM_SHAKE": 1,
-					"CAM_DOF": true,
-					"CAM_DOF_BLUR_SIZE": 0.01037,
-					"CAM_BLOOM_THRESHOLD": 0.74,
-					"CAM_BLOOM_INTENSITY": 2.08,
-					"CAM_BLOOM_BLEND": "#FF7800",
-					"CAM_COLOR_CORRECTION": true,
-					"CAM_CONTRAST": 0.31,
-					"CAM_BRIGHTNESS": 0.16,
-					"CAM_SATURATION": 1.14,
-					"CAM_VIBRANCE": 0.44,
-					"CAM_VIGNETTE": true,
-					"CAM_VIGNETTE_SOFTNESS": 0.46,
-					"CAM_CA": true,
-					"CAM_CA_BLUR_AMOUNT": 0,
-					"CAM_CA_RED_OFFSET": 0.02,
-					"CAM_CA_GREEN_OFFSET": 0,
-					"CAM_CA_BLUE_OFFSET": 0,
-					"TRANSITION": "easeinoutcubic"
-				}
 			},
-			"parent": "root",
-			"parent_tree_index": 2,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
-				"visibility": true,
-				"bend": false,
-				"rot_point": false,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": true
-		},
-		{
-			"id": "ZS1H8MB8SW3J33VY",
-			"type": "scenery",
-			"name": "",
-			"temp": "55YZQFX3P075GHI1",
-			"color": "#0B8000",
-			"hide": false,
-			"lock": true,
-			"depth": 0,
-			"parts": [
-			],
-			"default_values": {
-				"POS_X": -25.07118,
-				"POS_Y": -98.12372,
-				"POS_Z": 32.46757
-			},
-			"keyframes": {
-				"0": {
-					"POS_X": 2304,
-					"POS_Y": -96,
-					"POS_Z": 0,
-					"ROT_Z": 180
-				}
-			},
-			"parent": "root",
-			"parent_tree_index": 1,
-			"lock_bend": true,
-			"tree_extend": false,
-			"inherit": {
-				"position": true,
-				"rotation": true,
-				"scale": true,
-				"alpha": false,
-				"color": false,
-				"texture": false,
-				"visibility": true,
-				"bend": false,
-				"rot_point": false,
-				"glow_color": true,
-				"select": false
-			},
-			"scale_resize": true,
-			"rot_point_custom": false,
-			"rot_point": [ 1320, 0, 1384 ],
-			"backfaces": false,
-			"texture_blur": false,
-			"texture_filtering": true,
-			"shadows": true,
-			"ssao": true,
-			"glow": false,
-			"glow_texture": true,
-			"only_render_glow": false,
-			"fog": true,
-			"wind": false,
-			"wind_terrain": true,
-			"hq_hiding": false,
-			"lq_hiding": false,
-			"foliage_tint": false,
-			"bleed_light": true,
-			"blend_mode": "normal"
-		},
-		{
-			"id": "N3CSJZ8N920RQ04J",
-			"type": "scenery",
-			"name": "",
-			"temp": "5Q189Y3N93J8FQJX",
-			"color": "#008029",
-			"hide": false,
-			"lock": true,
-			"depth": 0,
-			"parts": [
-			],
-			"default_values": {
-				"POS_X": -25.07118,
-				"POS_Y": -98.12372,
-				"POS_Z": 48.46757
-			},
-			"keyframes": {
-				"0": {
-				}
-			},
-			"parent": "root",
+			"parent": "06ZUMYMVUBF22KR8",
 			"parent_tree_index": 0,
 			"lock_bend": true,
 			"tree_extend": false,
@@ -3093,6 +4585,528 @@
 				"position": true,
 				"rotation": true,
 				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "509W71D3156AI3TY",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#4A8000",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_arm",
+			"part_of": "W8TT2WG73MO71M39",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 20.55981,
+					"BEND_ANGLE_X": 16.87663
+				},
+				"4": {
+					"ROT_X": 20.55981,
+					"ROT_Y": -3.81848,
+					"BEND_ANGLE_X": 16.87663
+				},
+				"7": {
+					"ROT_X": 6.74765,
+					"ROT_Y": -3.81848,
+					"ROT_Z": -0.1433,
+					"BEND_ANGLE_X": 16.87663
+				},
+				"19": {
+					"ROT_X": -28.20773,
+					"ROT_Y": -8.74312,
+					"ROT_Z": 18.2487,
+					"BEND_ANGLE_X": 16.6663
+				},
+				"30": {
+					"ROT_X": 12.20386,
+					"ROT_Y": -8.74312,
+					"ROT_Z": 18.2487,
+					"BEND_ANGLE_X": 21.19262
+				},
+				"40": {
+					"ROT_X": -17.25784,
+					"ROT_Y": -8.74312,
+					"ROT_Z": 18.2487,
+					"BEND_ANGLE_X": 5.87424
+				},
+				"50": {
+					"ROT_X": 24.87588,
+					"ROT_Y": 9.25269,
+					"ROT_Z": 18.2487,
+					"BEND_ANGLE_X": 5.87424
+				},
+				"60": {
+					"ROT_X": -49.55721,
+					"ROT_Y": 9.25269,
+					"ROT_Z": -32.81673,
+					"BEND_ANGLE_X": 32.87075
+				},
+				"80": {
+					"ROT_X": 3.55637,
+					"ROT_Y": -15.61167,
+					"ROT_Z": -1.79564,
+					"BEND_ANGLE_X": 10.49477
+				},
+				"90": {
+					"ROT_X": -61.72035,
+					"ROT_Y": -16.11623,
+					"ROT_Z": 46.98358,
+					"BEND_ANGLE_X": 10.51623
+				},
+				"94": {
+					"ROT_X": -43.86702,
+					"ROT_Y": -20.41952,
+					"ROT_Z": 36.03225
+				},
+				"100": {
+					"ROT_X": -78.58719,
+					"ROT_Y": -20.41952,
+					"ROT_Z": 18.95724,
+					"BEND_ANGLE_X": -40.45322
+				},
+				"104": {
+					"ROT_X": -96.66136,
+					"ROT_Y": -20.95315,
+					"ROT_Z": 24.12803,
+					"BEND_ANGLE_X": -40.45322
+				}
+			},
+			"parent": "66ML6DE8JU8LD71O",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "XLX1H831S63TLK7D",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#800060",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_arm",
+			"part_of": "W8TT2WG73MO71M39",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -14.53676,
+					"ROT_Y": 9.89465,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 35.58273
+				},
+				"4": {
+					"ROT_X": 12.12845,
+					"ROT_Y": 9.89465,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 39.0222
+				},
+				"19": {
+					"ROT_X": 11.63142,
+					"ROT_Y": 9.89465,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 17.9207
+				},
+				"30": {
+					"ROT_X": -14.03107,
+					"ROT_Y": 9.89465,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 41.65392
+				},
+				"40": {
+					"ROT_X": 30.27031,
+					"ROT_Y": 9.89465,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 19.20971
+				},
+				"50": {
+					"ROT_X": -27.09677,
+					"ROT_Y": 12.46054,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 19.20971
+				},
+				"60": {
+					"ROT_X": 28.80602,
+					"ROT_Y": 12.46054,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 19.20971
+				},
+				"80": {
+					"ROT_X": 28.80602,
+					"ROT_Y": 25.48051,
+					"ROT_Z": -13.62375,
+					"BEND_ANGLE_X": 19.20971
+				},
+				"90": {
+					"ROT_X": 40.99718,
+					"ROT_Y": 25.48051,
+					"ROT_Z": 13.54535,
+					"BEND_ANGLE_X": 14.06965
+				},
+				"104": {
+					"ROT_X": -49.88749,
+					"ROT_Y": -7.18648,
+					"ROT_Z": 13.54535,
+					"BEND_ANGLE_X": 14.06965
+				}
+			},
+			"parent": "66ML6DE8JU8LD71O",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "GAE68O50A1CK5P60",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#80006F",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "right_leg",
+			"part_of": "W8TT2WG73MO71M39",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": -16.60895,
+					"BEND_ANGLE_X": 11.5043
+				},
+				"19": {
+					"ROT_X": 7.30953,
+					"BEND_ANGLE_X": 13.1647
+				},
+				"30": {
+					"ROT_X": -30.84533,
+					"BEND_ANGLE_X": 13.1647
+				},
+				"40": {
+					"ROT_X": -5.93636,
+					"BEND_ANGLE_X": 16.21206
+				},
+				"50": {
+					"ROT_X": -54.66673,
+					"BEND_ANGLE_X": 37.6979
+				},
+				"60": {
+					"ROT_X": 13.19045,
+					"ROT_Y": -8.3577,
+					"BEND_ANGLE_X": 21.1737
+				},
+				"70": {
+					"ROT_X": -45.58865,
+					"ROT_Y": -8.3577,
+					"ROT_Z": 21.89009,
+					"BEND_ANGLE_X": 73.14201
+				},
+				"80": {
+					"ROT_X": 26.87019,
+					"ROT_Y": -8.3577,
+					"ROT_Z": 21.89009
+				},
+				"85": {
+					"ROT_X": 26.87019,
+					"ROT_Y": -8.3577,
+					"ROT_Z": 12.92439,
+					"BEND_ANGLE_X": 50.31358
+				},
+				"95": {
+					"ROT_X": 33.56556,
+					"ROT_Y": -8.58032,
+					"ROT_Z": 13.75456,
+					"BEND_ANGLE_X": 47.21486
+				}
+			},
+			"parent": "W8TT2WG73MO71M39",
+			"parent_tree_index": 1,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "H42O9CS7UN8Y35A7",
+			"type": "bodypart",
+			"name": "",
+			"temp": "F06Y470479LZ3JHI",
+			"color": "#1D0080",
+			"hide": false,
+			"lock": false,
+			"depth": 0,
+			"model_part_name": "left_leg",
+			"part_of": "W8TT2WG73MO71M39",
+			"default_values": {
+			},
+			"keyframes": {
+				"0": {
+					"ROT_X": 11.84396,
+					"BEND_ANGLE_X": 20.59661
+				},
+				"5": {
+					"ROT_X": 1.16469,
+					"BEND_ANGLE_X": 27.39045
+				},
+				"19": {
+					"ROT_X": -32.84711,
+					"BEND_ANGLE_X": 27.12146
+				},
+				"30": {
+					"ROT_X": 2.68739,
+					"BEND_ANGLE_X": 27.12146
+				},
+				"40": {
+					"ROT_X": -31.63817,
+					"ROT_Y": 5.64381,
+					"BEND_ANGLE_X": 27.26278
+				},
+				"50": {
+					"ROT_X": 15.01054,
+					"ROT_Y": 5.64381,
+					"BEND_ANGLE_X": 0.12574
+				},
+				"60": {
+					"ROT_X": -30.29245,
+					"ROT_Y": 5.64381,
+					"BEND_ANGLE_X": -24.24926
+				},
+				"70": {
+					"ROT_X": 18.8077,
+					"ROT_Y": 5.64381,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": -113.31853
+				},
+				"80": {
+					"ROT_X": -59.35806,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 71.62304
+				},
+				"85": {
+					"ROT_X": -88.68536,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 88.17491
+				},
+				"90": {
+					"ROT_X": 26.24017,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 88.17491
+				},
+				"91": {
+					"ROT_X": -46.90356,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 89.31506
+				},
+				"94": {
+					"ROT_X": -13.3172,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 102.15759
+				},
+				"95": {
+					"ROT_X": -2.12175,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 125.34031
+				},
+				"100": {
+					"ROT_X": 31.18912,
+					"ROT_Y": 8.70421,
+					"ROT_Z": 15.70111,
+					"BEND_ANGLE_X": 125.34031
+				}
+			},
+			"parent": "W8TT2WG73MO71M39",
+			"parent_tree_index": 2,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": true,
+				"color": true,
+				"texture": true,
+				"visibility": true,
+				"bend": false,
+				"rot_point": true,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": false,
+			"rot_point_custom": false,
+			"rot_point": [ 0, 0, 0 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": false,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "0ZU4699M6S0XX78C",
+			"type": "item",
+			"name": "",
+			"temp": "V19A310H86DR4NET",
+			"color": "#008039",
+			"hide": false,
+			"lock": false,
+			"depth": 18,
+			"default_values": {
+				"POS_X": 454.50622,
+				"POS_Y": -405.66096,
+				"POS_Z": 120.18049
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 487.74442,
+					"POS_Y": -428.67781,
+					"POS_Z": 128.72638,
+					"ROT_X": 90,
+					"ROT_Z": 15,
+					"SCA_Y": 0.0051,
+					"RGB_MUL": "#383838",
+					"BRIGHTNESS": 1
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 6,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
 				"alpha": false,
 				"color": false,
 				"texture": false,
@@ -3103,19 +5117,141 @@
 				"select": false
 			},
 			"scale_resize": true,
-			"rot_point_custom": false,
-			"rot_point": [ 1208, 0, 1360 ],
+			"rot_point_custom": true,
+			"rot_point": [ 8, 8, 0.5 ],
 			"backfaces": false,
 			"texture_blur": false,
-			"texture_filtering": true,
+			"texture_filtering": false,
 			"shadows": true,
 			"ssao": true,
-			"glow": false,
+			"glow": true,
 			"glow_texture": true,
 			"only_render_glow": false,
 			"fog": true,
-			"wind": false,
-			"wind_terrain": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "C24DT938506VKXJ4",
+			"type": "item",
+			"name": "",
+			"temp": "V19A310H86DR4NET",
+			"color": "#008039",
+			"hide": false,
+			"lock": false,
+			"depth": 18,
+			"default_values": {
+				"POS_X": 454.50622,
+				"POS_Y": -405.66096,
+				"POS_Z": 120.18049
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 463.6559,
+					"POS_Y": -419.2597,
+					"POS_Z": 128.72638,
+					"ROT_X": 90,
+					"ROT_Z": -24.10398,
+					"SCA_Y": 0.0051,
+					"RGB_MUL": "#FF0000",
+					"GLOW_COLOR": "#FF0000",
+					"BRIGHTNESS": 1
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 8,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": true,
+			"rot_point": [ 8, 8, 0.5 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": true,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
+			"hq_hiding": false,
+			"lq_hiding": false,
+			"foliage_tint": false,
+			"bleed_light": true,
+			"blend_mode": "normal"
+		},
+		{
+			"id": "QR7PE414U2MTW902",
+			"type": "item",
+			"name": "",
+			"temp": "V19A310H86DR4NET",
+			"color": "#008039",
+			"hide": false,
+			"lock": false,
+			"depth": 18,
+			"default_values": {
+				"POS_X": 454.50622,
+				"POS_Y": -405.66096,
+				"POS_Z": 120.18049
+			},
+			"keyframes": {
+				"0": {
+					"POS_X": 451.59746,
+					"POS_Y": -424.9765,
+					"POS_Z": 128.72638,
+					"ROT_X": 90,
+					"ROT_Z": 6.46766,
+					"SCA_Y": 0.0051,
+					"RGB_MUL": "#12FF00",
+					"GLOW_COLOR": "#06FF00",
+					"BRIGHTNESS": 1
+				}
+			},
+			"parent": "root",
+			"parent_tree_index": 7,
+			"lock_bend": true,
+			"tree_extend": false,
+			"inherit": {
+				"position": true,
+				"rotation": true,
+				"scale": true,
+				"alpha": false,
+				"color": false,
+				"texture": false,
+				"visibility": true,
+				"bend": false,
+				"rot_point": false,
+				"glow_color": true,
+				"select": false
+			},
+			"scale_resize": true,
+			"rot_point_custom": true,
+			"rot_point": [ 8, 8, 0.5 ],
+			"backfaces": false,
+			"texture_blur": false,
+			"texture_filtering": false,
+			"shadows": true,
+			"ssao": true,
+			"glow": true,
+			"glow_texture": true,
+			"only_render_glow": false,
+			"fog": true,
 			"hq_hiding": false,
 			"lq_hiding": false,
 			"foliage_tint": false,
